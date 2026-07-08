@@ -1,0 +1,1001 @@
+Date,SalesPerson,Region,Category,Product,Quantity,UnitPrice,Sales
+2025-06-30,Emily,West,Office Supplies,Calculator,6,40,240
+2025-06-17,Emily,West,Electronics,Keyboard,10,50,500
+2025-06-29,Henry,East,Office Supplies,Notebook,7,8,56
+2025-11-16,Alice,West,Office Supplies,Paper,10,15,150
+2025-02-09,Grace,East,Furniture,Desk,4,450,1800
+2025-10-31,Alice,West,Office Supplies,Calculator,3,40,120
+2025-06-13,Henry,West,Electronics,Monitor,3,300,900
+2025-02-10,Alice,West,Furniture,Desk,8,450,3600
+2025-11-25,Carlos,West,Furniture,Desk,4,450,1800
+2025-01-03,Emily,North,Electronics,Monitor,3,300,900
+2025-05-08,Henry,East,Furniture,Desk,9,450,4050
+2025-05-18,Grace,North,Office Supplies,Calculator,1,40,40
+2025-01-25,Alice,South,Electronics,Laptop,5,1200,6000
+2025-07-18,Henry,North,Electronics,Laptop,5,1200,6000
+2025-01-07,Diana,East,Office Supplies,Notebook,8,8,64
+2025-05-20,Frank,North,Electronics,Laptop,5,1200,6000
+2025-11-11,Diana,East,Electronics,Laptop,2,1200,2400
+2025-08-02,Henry,North,Electronics,Keyboard,7,50,350
+2025-06-06,Diana,South,Office Supplies,Paper,10,15,150
+2025-01-08,Alice,West,Electronics,Keyboard,8,50,400
+2025-04-20,Alice,West,Office Supplies,Pen Pack,4,12,48
+2025-08-28,Alice,West,Office Supplies,Notebook,4,8,32
+2025-09-21,Diana,South,Electronics,Keyboard,3,50,150
+2025-03-08,Alice,East,Furniture,Office Chair,7,220,1540
+2025-05-29,Carlos,South,Office Supplies,Notebook,7,8,56
+2025-06-14,Brian,South,Furniture,Office Chair,3,220,660
+2025-08-18,Frank,East,Office Supplies,Calculator,2,40,80
+2025-01-10,Brian,West,Office Supplies,Paper,6,15,90
+2025-09-20,Grace,North,Office Supplies,Calculator,3,40,120
+2025-06-25,Frank,South,Furniture,Desk,6,450,2700
+2025-06-26,Henry,West,Furniture,Desk,2,450,900
+2025-02-05,Diana,South,Electronics,Laptop,9,1200,10800
+2025-04-28,Alice,West,Electronics,Monitor,6,300,1800
+2025-07-20,Carlos,South,Furniture,Bookshelf,8,180,1440
+2025-07-02,Carlos,East,Office Supplies,Paper,8,15,120
+2025-07-15,Frank,West,Electronics,Mouse,7,35,245
+2025-12-16,Frank,North,Furniture,Bookshelf,9,180,1620
+2025-12-04,Diana,North,Electronics,Printer,2,250,500
+2025-09-19,Diana,South,Electronics,Mouse,1,35,35
+2025-01-28,Alice,East,Electronics,Mouse,2,35,70
+2025-09-06,Grace,North,Office Supplies,Calculator,10,40,400
+2025-04-14,Emily,North,Electronics,Keyboard,8,50,400
+2025-04-05,Brian,South,Electronics,Laptop,6,1200,7200
+2025-08-30,Alice,North,Furniture,Desk,10,450,4500
+2025-02-01,Henry,South,Furniture,Office Chair,10,220,2200
+2025-08-02,Emily,East,Furniture,Office Chair,3,220,660
+2025-08-23,Frank,North,Office Supplies,Paper,8,15,120
+2025-01-23,Henry,East,Electronics,Laptop,4,1200,4800
+2025-11-27,Carlos,West,Office Supplies,Notebook,2,8,16
+2025-06-09,Brian,South,Office Supplies,Notebook,4,8,32
+2025-06-11,Henry,South,Electronics,Keyboard,7,50,350
+2025-08-06,Diana,East,Electronics,Mouse,7,35,245
+2025-06-28,Alice,East,Office Supplies,Notebook,8,8,64
+2025-02-17,Frank,East,Electronics,Laptop,9,1200,10800
+2025-06-03,Grace,North,Furniture,Desk,7,450,3150
+2025-09-24,Frank,South,Office Supplies,Paper,8,15,120
+2025-03-27,Carlos,South,Electronics,Laptop,6,1200,7200
+2025-02-14,Henry,North,Office Supplies,Notebook,2,8,16
+2025-12-10,Emily,East,Office Supplies,Paper,3,15,45
+2025-03-26,Carlos,North,Office Supplies,Calculator,9,40,360
+2025-06-13,Emily,West,Electronics,Laptop,8,1200,9600
+2025-08-27,Diana,North,Office Supplies,Notebook,4,8,32
+2025-05-13,Diana,West,Electronics,Laptop,7,1200,8400
+2025-09-19,Emily,North,Office Supplies,Notebook,4,8,32
+2025-03-21,Diana,East,Furniture,Office Chair,6,220,1320
+2025-06-26,Henry,South,Office Supplies,Notebook,1,8,8
+2025-04-09,Diana,East,Office Supplies,Notebook,6,8,48
+2025-04-21,Carlos,East,Electronics,Mouse,8,35,280
+2025-01-31,Emily,East,Electronics,Laptop,6,1200,7200
+2025-11-09,Diana,North,Furniture,Office Chair,1,220,220
+2025-12-21,Alice,South,Electronics,Monitor,1,300,300
+2025-08-14,Brian,West,Electronics,Keyboard,1,50,50
+2025-10-20,Frank,East,Electronics,Monitor,8,300,2400
+2025-04-28,Grace,West,Office Supplies,Calculator,6,40,240
+2025-03-27,Carlos,South,Electronics,Printer,8,250,2000
+2025-02-08,Diana,East,Furniture,Bookshelf,4,180,720
+2025-11-15,Frank,South,Electronics,Keyboard,7,50,350
+2025-05-11,Grace,East,Office Supplies,Pen Pack,6,12,72
+2025-02-05,Alice,East,Electronics,Monitor,10,300,3000
+2025-06-17,Grace,North,Electronics,Keyboard,7,50,350
+2025-04-20,Carlos,East,Furniture,Bookshelf,7,180,1260
+2025-09-05,Carlos,East,Office Supplies,Pen Pack,6,12,72
+2025-02-16,Alice,North,Furniture,Office Chair,8,220,1760
+2025-06-26,Henry,West,Electronics,Laptop,6,1200,7200
+2025-07-19,Brian,North,Electronics,Printer,10,250,2500
+2025-03-05,Grace,South,Office Supplies,Calculator,5,40,200
+2025-02-04,Brian,East,Office Supplies,Notebook,5,8,40
+2025-10-09,Carlos,West,Office Supplies,Pen Pack,2,12,24
+2025-11-13,Emily,South,Office Supplies,Paper,1,15,15
+2025-03-15,Frank,East,Electronics,Mouse,10,35,350
+2025-01-15,Grace,West,Electronics,Printer,8,250,2000
+2025-04-10,Diana,West,Electronics,Printer,4,250,1000
+2025-03-01,Diana,East,Electronics,Laptop,5,1200,6000
+2025-10-22,Diana,North,Furniture,Desk,10,450,4500
+2025-12-15,Brian,East,Furniture,Office Chair,5,220,1100
+2025-10-13,Brian,East,Electronics,Laptop,8,1200,9600
+2025-08-05,Brian,East,Furniture,Bookshelf,5,180,900
+2025-03-11,Grace,North,Electronics,Printer,2,250,500
+2025-08-06,Carlos,East,Office Supplies,Paper,2,15,30
+2025-05-31,Emily,South,Office Supplies,Calculator,2,40,80
+2025-07-26,Henry,North,Office Supplies,Calculator,9,40,360
+2025-03-07,Diana,East,Electronics,Printer,2,250,500
+2025-05-15,Grace,East,Electronics,Monitor,9,300,2700
+2025-04-27,Alice,North,Furniture,Bookshelf,5,180,900
+2025-08-07,Henry,East,Office Supplies,Calculator,3,40,120
+2025-10-27,Alice,East,Office Supplies,Calculator,1,40,40
+2025-12-05,Grace,East,Furniture,Office Chair,7,220,1540
+2025-08-14,Brian,North,Electronics,Laptop,3,1200,3600
+2025-09-14,Grace,East,Office Supplies,Pen Pack,8,12,96
+2025-08-19,Henry,West,Office Supplies,Paper,6,15,90
+2025-07-06,Alice,North,Electronics,Keyboard,3,50,150
+2025-03-15,Alice,South,Electronics,Mouse,3,35,105
+2025-12-08,Frank,East,Furniture,Office Chair,5,220,1100
+2025-12-06,Brian,East,Furniture,Bookshelf,3,180,540
+2025-01-03,Henry,West,Electronics,Mouse,6,35,210
+2025-09-11,Emily,North,Office Supplies,Notebook,4,8,32
+2025-07-02,Diana,East,Office Supplies,Notebook,5,8,40
+2025-10-31,Emily,North,Office Supplies,Paper,9,15,135
+2025-04-21,Henry,East,Furniture,Bookshelf,7,180,1260
+2025-08-26,Alice,North,Electronics,Laptop,2,1200,2400
+2025-07-29,Emily,West,Office Supplies,Paper,1,15,15
+2025-11-24,Grace,North,Furniture,Desk,6,450,2700
+2025-08-17,Brian,West,Furniture,Desk,6,450,2700
+2025-08-15,Brian,South,Office Supplies,Calculator,10,40,400
+2025-12-12,Brian,South,Electronics,Printer,2,250,500
+2025-10-13,Grace,West,Electronics,Printer,9,250,2250
+2025-10-11,Alice,West,Electronics,Keyboard,8,50,400
+2025-12-03,Henry,West,Office Supplies,Calculator,9,40,360
+2025-07-08,Brian,West,Office Supplies,Calculator,3,40,120
+2025-09-03,Alice,West,Office Supplies,Calculator,10,40,400
+2025-04-07,Grace,East,Furniture,Bookshelf,7,180,1260
+2025-10-14,Grace,West,Furniture,Bookshelf,3,180,540
+2025-05-31,Frank,North,Electronics,Keyboard,5,50,250
+2025-02-27,Emily,South,Electronics,Monitor,4,300,1200
+2025-07-03,Grace,East,Electronics,Monitor,4,300,1200
+2025-06-22,Diana,South,Furniture,Desk,3,450,1350
+2025-06-24,Emily,West,Electronics,Printer,3,250,750
+2025-09-07,Diana,South,Electronics,Monitor,3,300,900
+2025-04-03,Diana,East,Office Supplies,Pen Pack,2,12,24
+2025-07-19,Diana,South,Furniture,Desk,6,450,2700
+2025-04-12,Diana,East,Office Supplies,Paper,3,15,45
+2025-12-24,Frank,West,Office Supplies,Paper,4,15,60
+2025-07-05,Brian,South,Furniture,Office Chair,6,220,1320
+2025-04-23,Emily,West,Office Supplies,Paper,10,15,150
+2025-07-24,Diana,South,Office Supplies,Paper,8,15,120
+2025-10-08,Emily,East,Furniture,Desk,8,450,3600
+2025-06-07,Henry,West,Electronics,Monitor,6,300,1800
+2025-01-09,Grace,West,Furniture,Bookshelf,10,180,1800
+2025-01-25,Carlos,East,Electronics,Laptop,10,1200,12000
+2025-09-29,Emily,East,Furniture,Bookshelf,8,180,1440
+2025-11-07,Alice,South,Electronics,Keyboard,2,50,100
+2025-04-12,Henry,West,Furniture,Bookshelf,6,180,1080
+2025-06-06,Alice,South,Office Supplies,Calculator,4,40,160
+2025-09-14,Emily,South,Office Supplies,Notebook,7,8,56
+2025-07-02,Henry,South,Office Supplies,Notebook,3,8,24
+2025-09-28,Diana,North,Furniture,Bookshelf,3,180,540
+2025-05-14,Grace,West,Electronics,Printer,9,250,2250
+2025-10-11,Emily,North,Office Supplies,Paper,7,15,105
+2025-08-12,Grace,East,Electronics,Mouse,5,35,175
+2025-02-02,Alice,West,Furniture,Bookshelf,10,180,1800
+2025-02-19,Carlos,South,Office Supplies,Calculator,5,40,200
+2025-11-25,Emily,South,Office Supplies,Paper,7,15,105
+2025-08-07,Frank,West,Office Supplies,Pen Pack,2,12,24
+2025-03-11,Frank,East,Electronics,Keyboard,7,50,350
+2025-03-07,Brian,East,Office Supplies,Notebook,10,8,80
+2025-12-29,Alice,South,Office Supplies,Pen Pack,6,12,72
+2025-07-23,Alice,West,Electronics,Laptop,10,1200,12000
+2025-09-02,Alice,North,Office Supplies,Pen Pack,8,12,96
+2025-09-25,Diana,East,Electronics,Laptop,4,1200,4800
+2025-03-29,Emily,West,Furniture,Office Chair,1,220,220
+2025-05-20,Henry,South,Office Supplies,Calculator,3,40,120
+2025-05-06,Brian,East,Furniture,Office Chair,9,220,1980
+2025-09-05,Diana,South,Electronics,Laptop,7,1200,8400
+2025-06-05,Brian,West,Furniture,Bookshelf,2,180,360
+2025-08-13,Emily,East,Furniture,Bookshelf,4,180,720
+2025-05-23,Diana,East,Electronics,Keyboard,3,50,150
+2025-12-31,Emily,West,Electronics,Monitor,8,300,2400
+2025-07-03,Grace,South,Office Supplies,Notebook,4,8,32
+2025-04-09,Grace,North,Electronics,Printer,7,250,1750
+2025-07-30,Carlos,North,Electronics,Mouse,7,35,245
+2025-12-09,Grace,North,Electronics,Laptop,3,1200,3600
+2025-08-22,Frank,West,Electronics,Monitor,9,300,2700
+2025-03-07,Carlos,South,Electronics,Mouse,8,35,280
+2025-06-18,Alice,West,Office Supplies,Paper,8,15,120
+2025-04-19,Grace,North,Office Supplies,Notebook,4,8,32
+2025-05-22,Grace,East,Office Supplies,Notebook,10,8,80
+2025-05-19,Grace,West,Office Supplies,Pen Pack,5,12,60
+2025-04-11,Brian,East,Furniture,Desk,6,450,2700
+2025-12-23,Henry,South,Office Supplies,Pen Pack,8,12,96
+2025-10-24,Grace,West,Furniture,Desk,2,450,900
+2025-01-11,Alice,North,Furniture,Desk,7,450,3150
+2025-10-04,Henry,West,Electronics,Mouse,10,35,350
+2025-05-06,Alice,East,Furniture,Bookshelf,6,180,1080
+2025-05-06,Carlos,West,Furniture,Office Chair,6,220,1320
+2025-02-19,Emily,North,Electronics,Monitor,9,300,2700
+2025-11-30,Grace,East,Furniture,Desk,8,450,3600
+2025-03-29,Grace,West,Electronics,Mouse,4,35,140
+2025-09-20,Grace,South,Office Supplies,Paper,2,15,30
+2025-03-30,Emily,East,Office Supplies,Calculator,9,40,360
+2025-04-22,Brian,East,Office Supplies,Calculator,2,40,80
+2025-04-30,Frank,North,Furniture,Office Chair,2,220,440
+2025-01-28,Grace,North,Electronics,Mouse,9,35,315
+2025-04-22,Carlos,East,Electronics,Printer,5,250,1250
+2025-08-12,Frank,East,Office Supplies,Pen Pack,3,12,36
+2025-11-18,Grace,West,Electronics,Printer,3,250,750
+2025-05-20,Brian,North,Electronics,Printer,8,250,2000
+2025-08-23,Emily,East,Electronics,Mouse,3,35,105
+2025-11-02,Alice,West,Office Supplies,Pen Pack,2,12,24
+2025-09-09,Emily,North,Office Supplies,Calculator,4,40,160
+2025-12-14,Emily,West,Furniture,Office Chair,3,220,660
+2025-08-13,Diana,East,Furniture,Office Chair,1,220,220
+2025-03-20,Brian,East,Furniture,Office Chair,1,220,220
+2025-01-06,Carlos,East,Furniture,Desk,8,450,3600
+2025-04-08,Henry,South,Electronics,Mouse,10,35,350
+2025-10-02,Frank,West,Office Supplies,Pen Pack,10,12,120
+2025-12-27,Henry,North,Furniture,Desk,4,450,1800
+2025-10-05,Diana,South,Electronics,Laptop,8,1200,9600
+2025-02-27,Carlos,North,Office Supplies,Pen Pack,8,12,96
+2025-10-16,Emily,North,Furniture,Bookshelf,2,180,360
+2025-05-21,Henry,East,Furniture,Bookshelf,9,180,1620
+2025-10-11,Frank,East,Furniture,Desk,3,450,1350
+2025-10-20,Brian,South,Electronics,Monitor,5,300,1500
+2025-01-14,Emily,East,Office Supplies,Paper,4,15,60
+2025-08-09,Frank,East,Furniture,Desk,6,450,2700
+2025-04-13,Alice,West,Electronics,Laptop,7,1200,8400
+2025-12-28,Alice,South,Electronics,Printer,4,250,1000
+2025-03-31,Frank,West,Office Supplies,Notebook,10,8,80
+2025-07-12,Frank,South,Electronics,Laptop,4,1200,4800
+2025-09-01,Diana,South,Electronics,Laptop,2,1200,2400
+2025-05-11,Emily,West,Electronics,Laptop,5,1200,6000
+2025-08-02,Alice,East,Office Supplies,Calculator,9,40,360
+2025-09-09,Alice,South,Furniture,Bookshelf,3,180,540
+2025-08-24,Emily,North,Office Supplies,Pen Pack,8,12,96
+2025-11-15,Henry,North,Electronics,Printer,2,250,500
+2025-11-16,Henry,North,Furniture,Desk,4,450,1800
+2025-05-09,Grace,West,Office Supplies,Paper,6,15,90
+2025-09-21,Emily,East,Electronics,Laptop,2,1200,2400
+2025-08-10,Brian,East,Electronics,Keyboard,6,50,300
+2025-01-20,Grace,East,Office Supplies,Notebook,6,8,48
+2025-09-22,Brian,South,Furniture,Bookshelf,4,180,720
+2025-07-23,Grace,West,Office Supplies,Notebook,2,8,16
+2025-11-19,Frank,East,Office Supplies,Pen Pack,2,12,24
+2025-12-06,Grace,South,Office Supplies,Calculator,5,40,200
+2025-02-10,Frank,East,Electronics,Printer,5,250,1250
+2025-01-11,Grace,North,Electronics,Mouse,5,35,175
+2025-09-20,Brian,East,Furniture,Office Chair,5,220,1100
+2025-01-19,Alice,North,Furniture,Desk,1,450,450
+2025-06-09,Emily,West,Furniture,Office Chair,2,220,440
+2025-06-12,Emily,West,Electronics,Laptop,5,1200,6000
+2025-04-19,Diana,North,Electronics,Laptop,5,1200,6000
+2025-12-23,Diana,South,Electronics,Printer,10,250,2500
+2025-12-21,Henry,West,Office Supplies,Paper,10,15,150
+2025-07-28,Carlos,North,Electronics,Laptop,2,1200,2400
+2025-01-12,Diana,South,Electronics,Monitor,10,300,3000
+2025-10-23,Grace,West,Electronics,Keyboard,1,50,50
+2025-07-17,Frank,East,Furniture,Desk,3,450,1350
+2025-07-01,Brian,South,Office Supplies,Paper,8,15,120
+2025-05-11,Emily,South,Office Supplies,Notebook,5,8,40
+2025-04-14,Frank,South,Office Supplies,Pen Pack,7,12,84
+2025-08-21,Grace,West,Furniture,Office Chair,7,220,1540
+2025-06-25,Grace,West,Office Supplies,Calculator,2,40,80
+2025-04-05,Emily,East,Electronics,Monitor,9,300,2700
+2025-08-19,Frank,North,Electronics,Monitor,1,300,300
+2025-08-02,Emily,West,Furniture,Office Chair,3,220,660
+2025-05-19,Emily,West,Furniture,Desk,3,450,1350
+2025-05-29,Alice,East,Furniture,Office Chair,4,220,880
+2025-09-17,Brian,South,Office Supplies,Notebook,10,8,80
+2025-03-26,Henry,North,Furniture,Bookshelf,4,180,720
+2025-02-22,Henry,West,Electronics,Keyboard,9,50,450
+2025-09-09,Alice,West,Office Supplies,Calculator,4,40,160
+2025-09-16,Frank,East,Electronics,Laptop,5,1200,6000
+2025-08-10,Henry,South,Office Supplies,Notebook,7,8,56
+2025-10-24,Brian,South,Electronics,Keyboard,5,50,250
+2025-07-19,Brian,West,Office Supplies,Pen Pack,4,12,48
+2025-04-22,Brian,East,Office Supplies,Calculator,2,40,80
+2025-02-07,Henry,North,Office Supplies,Calculator,3,40,120
+2025-06-28,Emily,North,Office Supplies,Calculator,1,40,40
+2025-10-08,Diana,North,Electronics,Printer,7,250,1750
+2025-09-26,Henry,West,Office Supplies,Pen Pack,5,12,60
+2025-11-22,Henry,North,Furniture,Office Chair,6,220,1320
+2025-11-10,Carlos,South,Furniture,Bookshelf,9,180,1620
+2025-08-11,Diana,South,Electronics,Monitor,7,300,2100
+2025-07-12,Brian,South,Electronics,Mouse,9,35,315
+2025-03-12,Grace,South,Office Supplies,Notebook,7,8,56
+2025-11-12,Brian,South,Office Supplies,Paper,5,15,75
+2025-05-23,Brian,North,Furniture,Desk,10,450,4500
+2025-02-12,Henry,North,Office Supplies,Calculator,7,40,280
+2025-09-14,Alice,North,Electronics,Laptop,6,1200,7200
+2025-11-14,Diana,West,Office Supplies,Notebook,10,8,80
+2025-09-13,Emily,East,Electronics,Monitor,8,300,2400
+2025-11-25,Diana,East,Furniture,Office Chair,8,220,1760
+2025-07-26,Carlos,West,Office Supplies,Notebook,10,8,80
+2025-06-12,Brian,South,Office Supplies,Notebook,5,8,40
+2025-07-07,Alice,East,Furniture,Office Chair,4,220,880
+2025-12-27,Brian,South,Electronics,Printer,6,250,1500
+2025-05-10,Diana,South,Electronics,Mouse,9,35,315
+2025-10-27,Frank,North,Office Supplies,Paper,6,15,90
+2025-09-13,Frank,South,Office Supplies,Calculator,5,40,200
+2025-03-22,Brian,East,Office Supplies,Pen Pack,7,12,84
+2025-12-09,Brian,North,Electronics,Laptop,7,1200,8400
+2025-07-14,Grace,South,Office Supplies,Paper,5,15,75
+2025-09-21,Frank,South,Office Supplies,Paper,5,15,75
+2025-12-03,Carlos,North,Office Supplies,Pen Pack,3,12,36
+2025-10-08,Alice,East,Electronics,Mouse,4,35,140
+2025-06-28,Carlos,South,Furniture,Desk,6,450,2700
+2025-12-04,Carlos,West,Electronics,Laptop,5,1200,6000
+2025-04-24,Alice,North,Furniture,Bookshelf,3,180,540
+2025-09-24,Alice,North,Office Supplies,Notebook,5,8,40
+2025-11-24,Frank,North,Office Supplies,Notebook,5,8,40
+2025-02-22,Alice,North,Furniture,Desk,4,450,1800
+2025-02-09,Alice,North,Office Supplies,Notebook,9,8,72
+2025-04-01,Diana,West,Electronics,Keyboard,1,50,50
+2025-02-09,Brian,East,Office Supplies,Notebook,3,8,24
+2025-11-30,Diana,East,Electronics,Mouse,9,35,315
+2025-03-01,Henry,South,Electronics,Monitor,9,300,2700
+2025-10-11,Henry,West,Office Supplies,Calculator,7,40,280
+2025-09-07,Brian,West,Office Supplies,Calculator,3,40,120
+2025-04-04,Grace,East,Electronics,Monitor,8,300,2400
+2025-10-01,Brian,West,Office Supplies,Calculator,8,40,320
+2025-03-02,Frank,West,Furniture,Desk,8,450,3600
+2025-11-09,Frank,North,Electronics,Mouse,7,35,245
+2025-03-24,Alice,South,Electronics,Mouse,4,35,140
+2025-08-07,Carlos,West,Furniture,Desk,1,450,450
+2025-12-01,Grace,West,Electronics,Monitor,3,300,900
+2025-06-06,Grace,North,Electronics,Laptop,6,1200,7200
+2025-11-07,Alice,South,Office Supplies,Paper,8,15,120
+2025-04-27,Frank,South,Electronics,Keyboard,4,50,200
+2025-09-27,Frank,West,Electronics,Printer,6,250,1500
+2025-09-07,Alice,East,Furniture,Desk,4,450,1800
+2025-12-02,Carlos,West,Furniture,Bookshelf,2,180,360
+2025-06-06,Diana,East,Electronics,Monitor,10,300,3000
+2025-09-20,Frank,West,Furniture,Bookshelf,3,180,540
+2025-04-24,Carlos,North,Electronics,Printer,5,250,1250
+2025-05-30,Carlos,South,Furniture,Bookshelf,5,180,900
+2025-05-31,Alice,South,Furniture,Desk,2,450,900
+2025-01-03,Emily,North,Office Supplies,Paper,8,15,120
+2025-11-21,Grace,West,Office Supplies,Calculator,10,40,400
+2025-05-29,Brian,East,Furniture,Desk,2,450,900
+2025-11-30,Brian,South,Office Supplies,Calculator,4,40,160
+2025-01-31,Frank,North,Electronics,Monitor,4,300,1200
+2025-07-24,Alice,South,Office Supplies,Pen Pack,4,12,48
+2025-04-26,Emily,West,Electronics,Keyboard,7,50,350
+2025-11-26,Alice,South,Office Supplies,Calculator,9,40,360
+2025-12-17,Brian,South,Electronics,Keyboard,3,50,150
+2025-03-10,Emily,East,Furniture,Desk,5,450,2250
+2025-07-02,Grace,North,Electronics,Keyboard,5,50,250
+2025-03-17,Carlos,North,Furniture,Office Chair,6,220,1320
+2025-04-29,Diana,South,Electronics,Printer,5,250,1250
+2025-09-23,Alice,South,Office Supplies,Paper,1,15,15
+2025-09-27,Carlos,East,Electronics,Keyboard,7,50,350
+2025-06-23,Carlos,South,Electronics,Printer,7,250,1750
+2025-05-15,Diana,East,Office Supplies,Calculator,8,40,320
+2025-07-19,Brian,South,Electronics,Keyboard,1,50,50
+2025-06-04,Brian,North,Office Supplies,Notebook,10,8,80
+2025-11-29,Emily,North,Electronics,Printer,9,250,2250
+2025-03-13,Henry,West,Office Supplies,Calculator,4,40,160
+2025-03-11,Alice,North,Office Supplies,Pen Pack,1,12,12
+2025-01-26,Carlos,East,Office Supplies,Pen Pack,5,12,60
+2025-11-24,Henry,North,Electronics,Mouse,2,35,70
+2025-12-24,Henry,East,Furniture,Office Chair,6,220,1320
+2025-05-01,Grace,South,Electronics,Laptop,1,1200,1200
+2025-04-18,Diana,South,Electronics,Printer,7,250,1750
+2025-06-16,Brian,West,Furniture,Office Chair,5,220,1100
+2025-05-03,Henry,East,Furniture,Bookshelf,10,180,1800
+2025-12-25,Carlos,West,Electronics,Printer,4,250,1000
+2025-12-30,Alice,North,Electronics,Monitor,8,300,2400
+2025-06-02,Grace,West,Electronics,Keyboard,9,50,450
+2025-07-24,Frank,South,Electronics,Monitor,10,300,3000
+2025-06-11,Alice,North,Electronics,Mouse,2,35,70
+2025-08-21,Henry,West,Furniture,Office Chair,3,220,660
+2025-07-13,Grace,East,Electronics,Laptop,1,1200,1200
+2025-01-07,Diana,East,Furniture,Desk,1,450,450
+2025-10-30,Henry,East,Office Supplies,Notebook,7,8,56
+2025-07-15,Diana,North,Electronics,Printer,10,250,2500
+2025-01-15,Grace,West,Furniture,Bookshelf,9,180,1620
+2025-03-02,Alice,East,Office Supplies,Calculator,8,40,320
+2025-02-27,Alice,East,Electronics,Monitor,10,300,3000
+2025-08-19,Grace,South,Office Supplies,Notebook,6,8,48
+2025-09-06,Diana,West,Office Supplies,Paper,6,15,90
+2025-11-03,Brian,South,Electronics,Laptop,5,1200,6000
+2025-11-01,Emily,North,Electronics,Mouse,7,35,245
+2025-03-19,Alice,North,Electronics,Printer,5,250,1250
+2025-10-25,Grace,West,Electronics,Mouse,8,35,280
+2025-07-31,Diana,East,Electronics,Keyboard,9,50,450
+2025-09-19,Frank,South,Furniture,Bookshelf,10,180,1800
+2025-12-19,Frank,South,Electronics,Laptop,8,1200,9600
+2025-09-13,Carlos,South,Furniture,Bookshelf,6,180,1080
+2025-10-24,Henry,East,Furniture,Office Chair,10,220,2200
+2025-12-11,Brian,East,Office Supplies,Calculator,4,40,160
+2025-09-28,Grace,North,Office Supplies,Paper,10,15,150
+2025-04-03,Grace,West,Furniture,Office Chair,2,220,440
+2025-09-09,Carlos,East,Electronics,Mouse,3,35,105
+2025-03-17,Grace,East,Electronics,Laptop,4,1200,4800
+2025-09-14,Emily,North,Electronics,Mouse,6,35,210
+2025-06-09,Alice,North,Electronics,Keyboard,5,50,250
+2025-12-06,Frank,North,Furniture,Bookshelf,9,180,1620
+2025-02-12,Emily,East,Office Supplies,Notebook,5,8,40
+2025-08-08,Brian,West,Furniture,Bookshelf,4,180,720
+2025-10-11,Alice,West,Electronics,Monitor,2,300,600
+2025-11-01,Alice,South,Furniture,Office Chair,3,220,660
+2025-07-24,Frank,South,Office Supplies,Calculator,5,40,200
+2025-12-12,Brian,North,Office Supplies,Notebook,2,8,16
+2025-02-11,Alice,North,Electronics,Keyboard,9,50,450
+2025-08-24,Alice,South,Furniture,Office Chair,2,220,440
+2025-06-20,Diana,West,Office Supplies,Calculator,2,40,80
+2025-05-11,Diana,North,Office Supplies,Pen Pack,1,12,12
+2025-05-08,Frank,West,Office Supplies,Calculator,3,40,120
+2025-09-14,Emily,West,Electronics,Keyboard,10,50,500
+2025-09-29,Henry,South,Electronics,Laptop,8,1200,9600
+2025-03-09,Grace,South,Office Supplies,Notebook,1,8,8
+2025-09-17,Diana,West,Electronics,Keyboard,7,50,350
+2025-09-27,Grace,South,Office Supplies,Calculator,7,40,280
+2025-05-23,Carlos,South,Electronics,Keyboard,3,50,150
+2025-04-29,Henry,East,Electronics,Laptop,8,1200,9600
+2025-09-22,Henry,West,Office Supplies,Notebook,6,8,48
+2025-03-16,Grace,East,Electronics,Mouse,6,35,210
+2025-09-07,Alice,North,Office Supplies,Paper,8,15,120
+2025-06-05,Brian,South,Office Supplies,Notebook,7,8,56
+2025-07-06,Carlos,North,Electronics,Keyboard,1,50,50
+2025-05-25,Emily,West,Electronics,Printer,8,250,2000
+2025-03-11,Emily,South,Office Supplies,Pen Pack,4,12,48
+2025-02-20,Frank,South,Furniture,Office Chair,7,220,1540
+2025-10-18,Diana,West,Office Supplies,Calculator,8,40,320
+2025-04-07,Diana,East,Electronics,Laptop,7,1200,8400
+2025-06-22,Alice,North,Furniture,Bookshelf,3,180,540
+2025-10-12,Carlos,North,Office Supplies,Notebook,2,8,16
+2025-06-16,Carlos,South,Electronics,Laptop,1,1200,1200
+2025-12-05,Alice,South,Furniture,Desk,1,450,450
+2025-10-19,Carlos,West,Furniture,Desk,8,450,3600
+2025-10-09,Emily,West,Furniture,Office Chair,4,220,880
+2025-09-20,Alice,South,Electronics,Monitor,6,300,1800
+2025-07-21,Alice,West,Electronics,Laptop,6,1200,7200
+2025-11-08,Carlos,North,Electronics,Monitor,7,300,2100
+2025-03-10,Diana,South,Furniture,Bookshelf,8,180,1440
+2025-01-08,Grace,South,Office Supplies,Pen Pack,3,12,36
+2025-04-22,Emily,South,Furniture,Office Chair,6,220,1320
+2025-09-20,Frank,North,Office Supplies,Pen Pack,9,12,108
+2025-02-18,Brian,North,Furniture,Desk,3,450,1350
+2025-03-31,Emily,South,Office Supplies,Notebook,7,8,56
+2025-08-03,Diana,East,Electronics,Monitor,5,300,1500
+2025-06-20,Diana,South,Office Supplies,Pen Pack,9,12,108
+2025-07-21,Grace,South,Furniture,Desk,1,450,450
+2025-12-10,Brian,South,Electronics,Keyboard,10,50,500
+2025-07-18,Henry,East,Furniture,Desk,2,450,900
+2025-08-31,Emily,North,Office Supplies,Notebook,10,8,80
+2025-03-26,Brian,North,Office Supplies,Calculator,9,40,360
+2025-08-19,Diana,East,Electronics,Keyboard,8,50,400
+2025-01-24,Alice,South,Electronics,Keyboard,8,50,400
+2025-05-04,Frank,South,Electronics,Mouse,9,35,315
+2025-08-03,Emily,South,Office Supplies,Notebook,3,8,24
+2025-11-22,Grace,East,Furniture,Bookshelf,3,180,540
+2025-10-31,Brian,East,Electronics,Keyboard,9,50,450
+2025-06-28,Carlos,South,Electronics,Laptop,5,1200,6000
+2025-03-05,Henry,West,Furniture,Office Chair,7,220,1540
+2025-08-02,Diana,East,Electronics,Printer,2,250,500
+2025-09-13,Emily,West,Office Supplies,Notebook,1,8,8
+2025-08-02,Alice,South,Office Supplies,Paper,7,15,105
+2025-09-21,Carlos,East,Office Supplies,Pen Pack,2,12,24
+2025-10-09,Frank,East,Furniture,Desk,1,450,450
+2025-08-30,Frank,West,Office Supplies,Notebook,3,8,24
+2025-07-28,Emily,South,Furniture,Bookshelf,8,180,1440
+2025-09-23,Frank,North,Office Supplies,Calculator,6,40,240
+2025-12-30,Grace,West,Electronics,Monitor,1,300,300
+2025-03-23,Emily,West,Office Supplies,Pen Pack,1,12,12
+2025-12-05,Frank,North,Furniture,Desk,1,450,450
+2025-03-12,Emily,North,Office Supplies,Pen Pack,3,12,36
+2025-11-19,Grace,East,Electronics,Mouse,2,35,70
+2025-08-26,Grace,South,Office Supplies,Paper,6,15,90
+2025-03-07,Carlos,North,Office Supplies,Paper,5,15,75
+2025-10-18,Grace,West,Office Supplies,Paper,9,15,135
+2025-08-31,Carlos,East,Electronics,Mouse,1,35,35
+2025-07-23,Frank,East,Furniture,Bookshelf,1,180,180
+2025-06-17,Grace,West,Furniture,Bookshelf,7,180,1260
+2025-08-12,Carlos,East,Office Supplies,Pen Pack,9,12,108
+2025-11-11,Brian,North,Office Supplies,Notebook,5,8,40
+2025-06-28,Brian,West,Furniture,Bookshelf,8,180,1440
+2025-01-01,Grace,South,Office Supplies,Pen Pack,5,12,60
+2025-05-14,Henry,East,Electronics,Keyboard,3,50,150
+2025-09-30,Emily,West,Furniture,Desk,1,450,450
+2025-12-02,Frank,South,Electronics,Printer,4,250,1000
+2025-10-20,Emily,East,Furniture,Office Chair,8,220,1760
+2025-08-05,Frank,South,Office Supplies,Pen Pack,3,12,36
+2025-05-22,Grace,West,Furniture,Bookshelf,5,180,900
+2025-03-11,Carlos,West,Office Supplies,Calculator,6,40,240
+2025-01-24,Alice,North,Electronics,Printer,10,250,2500
+2025-09-16,Alice,East,Office Supplies,Notebook,8,8,64
+2025-11-21,Diana,North,Furniture,Desk,9,450,4050
+2025-08-26,Carlos,North,Electronics,Monitor,6,300,1800
+2025-03-02,Emily,East,Electronics,Monitor,10,300,3000
+2025-07-01,Alice,West,Office Supplies,Paper,8,15,120
+2025-12-18,Alice,South,Office Supplies,Pen Pack,5,12,60
+2025-11-01,Frank,East,Electronics,Printer,6,250,1500
+2025-06-04,Diana,East,Furniture,Office Chair,10,220,2200
+2025-05-27,Alice,East,Furniture,Office Chair,8,220,1760
+2025-10-12,Henry,West,Office Supplies,Calculator,7,40,280
+2025-04-07,Carlos,North,Furniture,Desk,6,450,2700
+2025-06-26,Carlos,East,Electronics,Monitor,5,300,1500
+2025-11-10,Carlos,East,Furniture,Bookshelf,5,180,900
+2025-02-15,Diana,West,Office Supplies,Paper,6,15,90
+2025-02-12,Carlos,West,Furniture,Desk,8,450,3600
+2025-04-28,Alice,East,Furniture,Bookshelf,7,180,1260
+2025-11-27,Henry,North,Office Supplies,Notebook,7,8,56
+2025-07-25,Frank,East,Office Supplies,Pen Pack,3,12,36
+2025-08-27,Carlos,East,Furniture,Bookshelf,2,180,360
+2025-11-04,Brian,North,Furniture,Desk,3,450,1350
+2025-07-01,Brian,North,Furniture,Desk,3,450,1350
+2025-08-25,Alice,West,Electronics,Printer,4,250,1000
+2025-06-28,Brian,North,Electronics,Printer,3,250,750
+2025-12-15,Alice,West,Electronics,Mouse,2,35,70
+2025-10-05,Carlos,South,Office Supplies,Calculator,1,40,40
+2025-01-05,Henry,East,Electronics,Laptop,4,1200,4800
+2025-11-26,Brian,South,Office Supplies,Pen Pack,2,12,24
+2025-10-14,Brian,North,Electronics,Keyboard,8,50,400
+2025-03-06,Carlos,West,Furniture,Desk,2,450,900
+2025-10-12,Emily,West,Furniture,Office Chair,2,220,440
+2025-11-17,Carlos,East,Furniture,Office Chair,10,220,2200
+2025-08-07,Diana,East,Electronics,Monitor,10,300,3000
+2025-10-04,Diana,West,Furniture,Bookshelf,1,180,180
+2025-12-06,Brian,North,Furniture,Office Chair,8,220,1760
+2025-09-09,Grace,North,Electronics,Printer,10,250,2500
+2025-01-15,Grace,West,Electronics,Printer,4,250,1000
+2025-04-27,Grace,North,Office Supplies,Calculator,2,40,80
+2025-11-16,Diana,West,Electronics,Keyboard,2,50,100
+2025-01-28,Brian,East,Electronics,Keyboard,7,50,350
+2025-07-01,Henry,East,Office Supplies,Paper,2,15,30
+2025-09-15,Frank,West,Electronics,Printer,10,250,2500
+2025-04-06,Diana,West,Electronics,Keyboard,10,50,500
+2025-05-01,Frank,West,Electronics,Monitor,10,300,3000
+2025-01-16,Diana,East,Electronics,Mouse,6,35,210
+2025-05-01,Emily,South,Electronics,Monitor,4,300,1200
+2025-11-23,Henry,South,Office Supplies,Pen Pack,8,12,96
+2025-09-17,Carlos,North,Office Supplies,Notebook,6,8,48
+2025-01-23,Carlos,North,Electronics,Laptop,6,1200,7200
+2025-12-28,Diana,South,Furniture,Bookshelf,9,180,1620
+2025-11-14,Brian,South,Furniture,Bookshelf,10,180,1800
+2025-09-27,Alice,East,Electronics,Monitor,10,300,3000
+2025-07-17,Grace,West,Office Supplies,Paper,10,15,150
+2025-06-15,Frank,South,Office Supplies,Notebook,9,8,72
+2025-12-10,Alice,South,Office Supplies,Calculator,3,40,120
+2025-09-29,Grace,North,Electronics,Laptop,3,1200,3600
+2025-10-29,Frank,North,Furniture,Office Chair,9,220,1980
+2025-08-11,Carlos,South,Office Supplies,Paper,9,15,135
+2025-11-13,Brian,East,Furniture,Office Chair,1,220,220
+2025-01-30,Henry,East,Electronics,Printer,6,250,1500
+2025-02-04,Emily,North,Electronics,Laptop,6,1200,7200
+2025-04-23,Brian,East,Office Supplies,Pen Pack,5,12,60
+2025-03-23,Emily,North,Office Supplies,Pen Pack,10,12,120
+2025-03-16,Carlos,West,Electronics,Laptop,3,1200,3600
+2025-01-02,Diana,East,Furniture,Bookshelf,3,180,540
+2025-09-16,Grace,East,Electronics,Laptop,1,1200,1200
+2025-02-21,Alice,West,Office Supplies,Calculator,5,40,200
+2025-03-21,Carlos,South,Furniture,Desk,1,450,450
+2025-05-09,Alice,North,Electronics,Laptop,2,1200,2400
+2025-12-18,Frank,West,Electronics,Mouse,8,35,280
+2025-09-09,Grace,North,Office Supplies,Pen Pack,6,12,72
+2025-04-13,Emily,South,Furniture,Bookshelf,9,180,1620
+2025-01-30,Brian,South,Electronics,Printer,4,250,1000
+2025-06-29,Emily,East,Office Supplies,Calculator,1,40,40
+2025-04-02,Alice,North,Furniture,Office Chair,4,220,880
+2025-05-28,Frank,South,Electronics,Monitor,4,300,1200
+2025-12-16,Grace,North,Furniture,Desk,2,450,900
+2025-08-16,Frank,East,Office Supplies,Paper,1,15,15
+2025-03-12,Diana,South,Office Supplies,Calculator,5,40,200
+2025-04-15,Emily,West,Office Supplies,Paper,10,15,150
+2025-10-05,Diana,West,Electronics,Monitor,7,300,2100
+2025-03-29,Diana,East,Electronics,Printer,5,250,1250
+2025-11-18,Grace,South,Office Supplies,Notebook,9,8,72
+2025-08-21,Brian,South,Furniture,Bookshelf,6,180,1080
+2025-05-28,Carlos,East,Electronics,Laptop,10,1200,12000
+2025-06-27,Emily,East,Furniture,Desk,5,450,2250
+2025-04-05,Carlos,North,Electronics,Keyboard,8,50,400
+2025-05-07,Alice,North,Electronics,Monitor,1,300,300
+2025-02-11,Carlos,South,Office Supplies,Calculator,4,40,160
+2025-07-04,Henry,South,Electronics,Keyboard,9,50,450
+2025-03-29,Alice,North,Electronics,Laptop,3,1200,3600
+2025-02-15,Diana,South,Furniture,Desk,2,450,900
+2025-05-09,Carlos,North,Office Supplies,Notebook,6,8,48
+2025-01-06,Brian,East,Electronics,Keyboard,2,50,100
+2025-08-14,Grace,East,Office Supplies,Paper,2,15,30
+2025-01-17,Diana,South,Electronics,Keyboard,1,50,50
+2025-05-22,Grace,South,Office Supplies,Calculator,3,40,120
+2025-04-30,Emily,West,Electronics,Mouse,10,35,350
+2025-05-09,Diana,West,Electronics,Monitor,10,300,3000
+2025-04-08,Grace,South,Electronics,Keyboard,10,50,500
+2025-08-29,Alice,North,Electronics,Keyboard,2,50,100
+2025-02-23,Diana,West,Electronics,Laptop,9,1200,10800
+2025-08-24,Alice,South,Office Supplies,Notebook,5,8,40
+2025-07-26,Henry,West,Office Supplies,Pen Pack,8,12,96
+2025-07-13,Frank,South,Furniture,Office Chair,7,220,1540
+2025-06-05,Carlos,East,Office Supplies,Paper,4,15,60
+2025-02-27,Diana,West,Furniture,Bookshelf,6,180,1080
+2025-08-01,Diana,North,Furniture,Desk,6,450,2700
+2025-03-19,Diana,South,Electronics,Keyboard,7,50,350
+2025-07-01,Diana,South,Electronics,Mouse,3,35,105
+2025-04-16,Henry,East,Furniture,Office Chair,3,220,660
+2025-05-31,Henry,East,Electronics,Printer,1,250,250
+2025-12-31,Frank,West,Furniture,Office Chair,8,220,1760
+2025-09-01,Carlos,East,Electronics,Laptop,1,1200,1200
+2025-05-25,Henry,North,Furniture,Bookshelf,7,180,1260
+2025-07-12,Diana,South,Electronics,Monitor,1,300,300
+2025-08-20,Henry,North,Electronics,Monitor,9,300,2700
+2025-12-04,Alice,East,Furniture,Desk,4,450,1800
+2025-03-03,Diana,West,Electronics,Monitor,10,300,3000
+2025-11-14,Frank,South,Electronics,Laptop,7,1200,8400
+2025-02-24,Frank,South,Electronics,Printer,4,250,1000
+2025-09-06,Carlos,West,Electronics,Laptop,9,1200,10800
+2025-07-12,Henry,South,Furniture,Bookshelf,6,180,1080
+2025-01-27,Frank,South,Furniture,Bookshelf,1,180,180
+2025-11-17,Henry,West,Furniture,Desk,10,450,4500
+2025-03-05,Diana,West,Electronics,Monitor,6,300,1800
+2025-07-10,Diana,South,Office Supplies,Calculator,10,40,400
+2025-04-02,Alice,South,Electronics,Printer,9,250,2250
+2025-09-05,Brian,South,Office Supplies,Paper,3,15,45
+2025-01-15,Emily,North,Electronics,Monitor,10,300,3000
+2025-07-28,Carlos,North,Furniture,Office Chair,4,220,880
+2025-07-25,Emily,West,Furniture,Desk,6,450,2700
+2025-05-02,Frank,East,Furniture,Bookshelf,10,180,1800
+2025-07-13,Diana,North,Office Supplies,Notebook,10,8,80
+2025-02-05,Frank,East,Furniture,Bookshelf,1,180,180
+2025-11-27,Alice,South,Office Supplies,Paper,1,15,15
+2025-10-01,Brian,West,Office Supplies,Calculator,5,40,200
+2025-01-31,Frank,South,Electronics,Laptop,4,1200,4800
+2025-08-09,Diana,East,Electronics,Mouse,5,35,175
+2025-10-15,Diana,North,Electronics,Keyboard,2,50,100
+2025-09-11,Diana,North,Office Supplies,Paper,9,15,135
+2025-08-16,Henry,West,Office Supplies,Paper,6,15,90
+2025-01-13,Carlos,East,Office Supplies,Notebook,6,8,48
+2025-05-17,Diana,South,Furniture,Office Chair,5,220,1100
+2025-10-14,Brian,North,Electronics,Mouse,9,35,315
+2025-05-14,Grace,East,Electronics,Printer,1,250,250
+2025-03-05,Emily,West,Electronics,Monitor,3,300,900
+2025-11-14,Carlos,East,Furniture,Desk,5,450,2250
+2025-08-20,Brian,East,Office Supplies,Calculator,10,40,400
+2025-10-16,Henry,East,Office Supplies,Pen Pack,10,12,120
+2025-01-23,Brian,South,Office Supplies,Pen Pack,3,12,36
+2025-03-28,Brian,West,Furniture,Desk,5,450,2250
+2025-09-03,Brian,South,Furniture,Desk,3,450,1350
+2025-06-27,Alice,North,Electronics,Monitor,2,300,600
+2025-02-25,Carlos,South,Office Supplies,Pen Pack,4,12,48
+2025-08-24,Frank,North,Electronics,Mouse,4,35,140
+2025-05-06,Carlos,East,Office Supplies,Notebook,6,8,48
+2025-10-10,Alice,West,Furniture,Office Chair,3,220,660
+2025-10-19,Diana,West,Electronics,Mouse,9,35,315
+2025-10-11,Henry,South,Furniture,Bookshelf,8,180,1440
+2025-04-15,Carlos,North,Electronics,Mouse,4,35,140
+2025-11-02,Alice,South,Office Supplies,Calculator,3,40,120
+2025-04-15,Henry,South,Furniture,Bookshelf,8,180,1440
+2025-03-14,Brian,East,Office Supplies,Notebook,8,8,64
+2025-01-13,Alice,North,Office Supplies,Notebook,1,8,8
+2025-04-05,Frank,South,Electronics,Printer,7,250,1750
+2025-06-11,Frank,South,Furniture,Office Chair,10,220,2200
+2025-03-13,Brian,East,Office Supplies,Pen Pack,5,12,60
+2025-10-18,Carlos,West,Electronics,Mouse,1,35,35
+2025-12-31,Brian,West,Electronics,Keyboard,6,50,300
+2025-03-20,Diana,North,Furniture,Bookshelf,2,180,360
+2025-03-01,Diana,East,Office Supplies,Pen Pack,3,12,36
+2025-12-14,Emily,West,Electronics,Mouse,5,35,175
+2025-08-11,Alice,West,Electronics,Laptop,8,1200,9600
+2025-06-01,Henry,East,Furniture,Desk,8,450,3600
+2025-02-22,Frank,East,Electronics,Mouse,1,35,35
+2025-08-16,Emily,West,Electronics,Laptop,10,1200,12000
+2025-09-26,Emily,East,Office Supplies,Pen Pack,3,12,36
+2025-09-02,Frank,East,Office Supplies,Pen Pack,4,12,48
+2025-04-04,Grace,North,Electronics,Laptop,3,1200,3600
+2025-08-04,Diana,South,Office Supplies,Pen Pack,4,12,48
+2025-10-21,Frank,East,Electronics,Printer,10,250,2500
+2025-10-04,Grace,East,Office Supplies,Calculator,3,40,120
+2025-11-14,Alice,North,Office Supplies,Notebook,3,8,24
+2025-04-18,Alice,East,Office Supplies,Pen Pack,1,12,12
+2025-06-24,Carlos,West,Electronics,Monitor,9,300,2700
+2025-11-13,Henry,West,Furniture,Office Chair,1,220,220
+2025-01-24,Carlos,West,Electronics,Keyboard,1,50,50
+2025-05-20,Grace,West,Office Supplies,Calculator,4,40,160
+2025-01-05,Carlos,North,Electronics,Keyboard,8,50,400
+2025-08-12,Brian,North,Electronics,Mouse,9,35,315
+2025-03-19,Henry,South,Office Supplies,Calculator,1,40,40
+2025-09-16,Alice,North,Furniture,Office Chair,2,220,440
+2025-03-27,Henry,North,Furniture,Bookshelf,3,180,540
+2025-03-05,Carlos,West,Office Supplies,Pen Pack,10,12,120
+2025-01-25,Frank,North,Furniture,Desk,10,450,4500
+2025-07-24,Alice,West,Furniture,Office Chair,3,220,660
+2025-12-31,Carlos,North,Furniture,Bookshelf,5,180,900
+2025-02-04,Frank,North,Office Supplies,Calculator,8,40,320
+2025-02-21,Emily,West,Office Supplies,Paper,1,15,15
+2025-10-25,Alice,South,Electronics,Monitor,8,300,2400
+2025-11-22,Alice,North,Electronics,Laptop,3,1200,3600
+2025-02-02,Diana,South,Electronics,Keyboard,4,50,200
+2025-04-19,Grace,West,Electronics,Laptop,8,1200,9600
+2025-03-02,Frank,North,Electronics,Laptop,5,1200,6000
+2025-08-23,Carlos,West,Office Supplies,Calculator,5,40,200
+2025-07-20,Brian,South,Office Supplies,Paper,2,15,30
+2025-10-12,Frank,North,Office Supplies,Notebook,9,8,72
+2025-06-25,Alice,South,Electronics,Monitor,10,300,3000
+2025-06-28,Diana,East,Office Supplies,Paper,3,15,45
+2025-12-16,Alice,North,Electronics,Keyboard,7,50,350
+2025-12-13,Diana,West,Electronics,Mouse,7,35,245
+2025-03-06,Emily,South,Electronics,Keyboard,2,50,100
+2025-05-01,Frank,East,Electronics,Keyboard,2,50,100
+2025-06-16,Diana,East,Electronics,Mouse,2,35,70
+2025-12-22,Henry,South,Furniture,Office Chair,9,220,1980
+2025-02-13,Brian,North,Office Supplies,Notebook,7,8,56
+2025-10-19,Carlos,East,Electronics,Mouse,2,35,70
+2025-10-22,Alice,West,Office Supplies,Pen Pack,4,12,48
+2025-04-30,Frank,South,Office Supplies,Calculator,8,40,320
+2025-04-02,Emily,West,Furniture,Bookshelf,1,180,180
+2025-02-07,Frank,South,Electronics,Mouse,2,35,70
+2025-06-20,Emily,West,Electronics,Laptop,9,1200,10800
+2025-11-17,Grace,South,Electronics,Keyboard,10,50,500
+2025-12-30,Grace,South,Electronics,Monitor,7,300,2100
+2025-04-28,Henry,East,Electronics,Mouse,10,35,350
+2025-08-05,Grace,North,Office Supplies,Pen Pack,4,12,48
+2025-04-20,Alice,North,Furniture,Bookshelf,1,180,180
+2025-05-06,Emily,West,Office Supplies,Notebook,4,8,32
+2025-10-13,Grace,North,Office Supplies,Pen Pack,4,12,48
+2025-02-19,Brian,West,Electronics,Keyboard,6,50,300
+2025-06-08,Henry,East,Furniture,Office Chair,2,220,440
+2025-03-28,Henry,West,Electronics,Monitor,10,300,3000
+2025-04-26,Alice,South,Furniture,Desk,8,450,3600
+2025-09-27,Grace,West,Office Supplies,Notebook,1,8,8
+2025-02-16,Brian,East,Furniture,Bookshelf,3,180,540
+2025-07-20,Brian,East,Office Supplies,Notebook,10,8,80
+2025-10-14,Brian,West,Electronics,Printer,3,250,750
+2025-04-25,Brian,West,Office Supplies,Calculator,4,40,160
+2025-11-09,Frank,East,Furniture,Office Chair,4,220,880
+2025-12-30,Alice,South,Office Supplies,Calculator,4,40,160
+2025-01-10,Henry,North,Office Supplies,Calculator,9,40,360
+2025-04-15,Grace,South,Office Supplies,Pen Pack,6,12,72
+2025-05-13,Grace,North,Furniture,Desk,8,450,3600
+2025-06-13,Henry,North,Office Supplies,Paper,9,15,135
+2025-09-03,Grace,East,Office Supplies,Notebook,5,8,40
+2025-02-21,Brian,North,Furniture,Bookshelf,7,180,1260
+2025-07-12,Henry,North,Electronics,Keyboard,6,50,300
+2025-04-07,Brian,North,Furniture,Office Chair,7,220,1540
+2025-10-12,Carlos,North,Electronics,Monitor,1,300,300
+2025-10-19,Grace,North,Furniture,Desk,8,450,3600
+2025-07-14,Grace,North,Electronics,Printer,3,250,750
+2025-03-19,Brian,East,Furniture,Bookshelf,2,180,360
+2025-05-09,Carlos,East,Office Supplies,Calculator,4,40,160
+2025-02-06,Brian,East,Office Supplies,Pen Pack,1,12,12
+2025-03-17,Alice,North,Electronics,Mouse,10,35,350
+2025-02-06,Emily,East,Electronics,Monitor,9,300,2700
+2025-04-13,Emily,West,Office Supplies,Paper,3,15,45
+2025-09-19,Frank,East,Electronics,Printer,7,250,1750
+2025-11-06,Diana,East,Office Supplies,Calculator,8,40,320
+2025-01-18,Brian,West,Furniture,Desk,3,450,1350
+2025-01-03,Carlos,West,Furniture,Office Chair,8,220,1760
+2025-01-13,Diana,North,Electronics,Keyboard,10,50,500
+2025-11-13,Brian,North,Electronics,Printer,3,250,750
+2025-07-28,Henry,South,Electronics,Mouse,8,35,280
+2025-02-05,Henry,West,Electronics,Monitor,1,300,300
+2025-06-23,Diana,North,Electronics,Monitor,10,300,3000
+2025-06-16,Grace,East,Electronics,Monitor,10,300,3000
+2025-09-23,Henry,East,Electronics,Mouse,4,35,140
+2025-02-15,Grace,West,Electronics,Mouse,10,35,350
+2025-09-28,Brian,North,Furniture,Desk,7,450,3150
+2025-10-20,Frank,North,Office Supplies,Calculator,6,40,240
+2025-05-02,Emily,East,Furniture,Office Chair,7,220,1540
+2025-11-27,Grace,West,Office Supplies,Paper,8,15,120
+2025-06-16,Alice,East,Electronics,Monitor,3,300,900
+2025-06-26,Carlos,East,Electronics,Monitor,4,300,1200
+2025-10-26,Emily,South,Electronics,Printer,5,250,1250
+2025-04-30,Brian,North,Office Supplies,Notebook,10,8,80
+2025-06-04,Carlos,West,Office Supplies,Paper,4,15,60
+2025-10-04,Emily,South,Furniture,Office Chair,3,220,660
+2025-03-22,Henry,North,Furniture,Office Chair,8,220,1760
+2025-04-24,Diana,West,Office Supplies,Paper,4,15,60
+2025-07-19,Diana,South,Electronics,Laptop,10,1200,12000
+2025-12-29,Grace,West,Electronics,Printer,5,250,1250
+2025-12-25,Diana,South,Electronics,Keyboard,2,50,100
+2025-03-21,Carlos,East,Office Supplies,Paper,10,15,150
+2025-09-05,Grace,East,Furniture,Office Chair,8,220,1760
+2025-09-01,Alice,South,Electronics,Keyboard,2,50,100
+2025-08-04,Carlos,South,Electronics,Monitor,7,300,2100
+2025-01-16,Diana,North,Electronics,Keyboard,6,50,300
+2025-12-28,Diana,South,Office Supplies,Notebook,8,8,64
+2025-07-21,Henry,East,Electronics,Keyboard,6,50,300
+2025-01-21,Emily,East,Electronics,Printer,5,250,1250
+2025-11-18,Grace,South,Electronics,Laptop,9,1200,10800
+2025-03-05,Emily,South,Office Supplies,Calculator,10,40,400
+2025-03-14,Emily,East,Electronics,Laptop,6,1200,7200
+2025-08-01,Alice,West,Electronics,Monitor,7,300,2100
+2025-02-07,Carlos,South,Office Supplies,Pen Pack,4,12,48
+2025-05-08,Carlos,East,Furniture,Office Chair,5,220,1100
+2025-02-25,Frank,North,Electronics,Keyboard,2,50,100
+2025-11-24,Brian,East,Furniture,Bookshelf,6,180,1080
+2025-02-07,Carlos,South,Office Supplies,Calculator,2,40,80
+2025-04-15,Brian,South,Office Supplies,Calculator,4,40,160
+2025-11-10,Alice,West,Electronics,Printer,1,250,250
+2025-03-30,Emily,South,Office Supplies,Paper,10,15,150
+2025-10-30,Diana,North,Electronics,Laptop,10,1200,12000
+2025-02-14,Henry,North,Electronics,Keyboard,7,50,350
+2025-04-13,Alice,West,Electronics,Laptop,1,1200,1200
+2025-01-25,Alice,East,Electronics,Keyboard,2,50,100
+2025-04-10,Alice,South,Electronics,Printer,7,250,1750
+2025-11-20,Carlos,North,Office Supplies,Pen Pack,5,12,60
+2025-01-29,Emily,West,Furniture,Bookshelf,7,180,1260
+2025-09-18,Henry,North,Electronics,Laptop,7,1200,8400
+2025-08-06,Alice,South,Office Supplies,Calculator,8,40,320
+2025-07-30,Emily,South,Electronics,Monitor,1,300,300
+2025-09-25,Frank,North,Electronics,Mouse,7,35,245
+2025-01-01,Grace,East,Furniture,Bookshelf,9,180,1620
+2025-06-16,Frank,West,Office Supplies,Calculator,3,40,120
+2025-01-07,Alice,South,Electronics,Keyboard,6,50,300
+2025-01-31,Grace,North,Office Supplies,Notebook,4,8,32
+2025-01-04,Diana,South,Electronics,Mouse,6,35,210
+2025-07-18,Brian,North,Office Supplies,Pen Pack,2,12,24
+2025-11-17,Emily,West,Furniture,Desk,3,450,1350
+2025-10-29,Emily,South,Office Supplies,Paper,7,15,105
+2025-04-18,Carlos,North,Electronics,Laptop,6,1200,7200
+2025-09-07,Carlos,North,Furniture,Bookshelf,1,180,180
+2025-03-24,Emily,North,Electronics,Monitor,7,300,2100
+2025-06-08,Frank,East,Electronics,Monitor,4,300,1200
+2025-01-19,Emily,West,Furniture,Desk,1,450,450
+2025-03-19,Brian,West,Furniture,Desk,8,450,3600
+2025-07-28,Diana,South,Electronics,Mouse,1,35,35
+2025-11-16,Frank,North,Office Supplies,Notebook,9,8,72
+2025-10-14,Carlos,North,Furniture,Office Chair,5,220,1100
+2025-07-26,Brian,East,Electronics,Keyboard,6,50,300
+2025-08-13,Emily,East,Office Supplies,Notebook,6,8,48
+2025-01-25,Henry,North,Electronics,Monitor,9,300,2700
+2025-06-15,Grace,South,Furniture,Desk,10,450,4500
+2025-06-08,Alice,North,Furniture,Desk,5,450,2250
+2025-05-01,Alice,South,Office Supplies,Pen Pack,9,12,108
+2025-04-06,Emily,East,Office Supplies,Notebook,7,8,56
+2025-03-23,Emily,East,Electronics,Keyboard,4,50,200
+2025-04-26,Grace,West,Office Supplies,Calculator,3,40,120
+2025-12-24,Diana,South,Furniture,Office Chair,3,220,660
+2025-04-10,Grace,West,Electronics,Keyboard,6,50,300
+2025-10-21,Carlos,South,Office Supplies,Calculator,8,40,320
+2025-10-14,Brian,East,Office Supplies,Calculator,3,40,120
+2025-01-25,Frank,North,Furniture,Bookshelf,9,180,1620
+2025-11-25,Carlos,West,Furniture,Office Chair,1,220,220
+2025-04-07,Emily,West,Electronics,Mouse,7,35,245
+2025-11-10,Carlos,South,Electronics,Laptop,5,1200,6000
+2025-04-03,Brian,West,Office Supplies,Notebook,5,8,40
+2025-01-11,Henry,South,Electronics,Monitor,5,300,1500
+2025-03-29,Frank,East,Office Supplies,Calculator,10,40,400
+2025-11-03,Diana,West,Electronics,Keyboard,9,50,450
+2025-06-10,Henry,South,Office Supplies,Paper,9,15,135
+2025-04-20,Diana,South,Furniture,Bookshelf,10,180,1800
+2025-06-05,Emily,West,Office Supplies,Pen Pack,1,12,12
+2025-08-25,Frank,West,Electronics,Monitor,7,300,2100
+2025-04-11,Frank,West,Office Supplies,Pen Pack,6,12,72
+2025-04-11,Carlos,West,Electronics,Printer,1,250,250
+2025-12-07,Alice,North,Office Supplies,Pen Pack,9,12,108
+2025-10-07,Grace,East,Office Supplies,Paper,4,15,60
+2025-03-14,Diana,West,Office Supplies,Pen Pack,9,12,108
+2025-07-20,Diana,North,Office Supplies,Calculator,6,40,240
+2025-08-07,Grace,West,Office Supplies,Calculator,4,40,160
+2025-10-18,Brian,North,Furniture,Bookshelf,2,180,360
+2025-08-21,Carlos,South,Electronics,Monitor,2,300,600
+2025-05-05,Diana,North,Electronics,Keyboard,9,50,450
+2025-02-14,Frank,West,Office Supplies,Notebook,8,8,64
+2025-06-14,Henry,West,Electronics,Mouse,10,35,350
+2025-06-30,Emily,West,Office Supplies,Calculator,1,40,40
+2025-12-08,Brian,South,Electronics,Keyboard,1,50,50
+2025-11-26,Brian,South,Furniture,Office Chair,7,220,1540
+2025-01-25,Frank,South,Office Supplies,Calculator,2,40,80
+2025-02-01,Diana,North,Electronics,Monitor,6,300,1800
+2025-07-05,Grace,West,Furniture,Office Chair,3,220,660
+2025-03-12,Alice,East,Office Supplies,Paper,5,15,75
+2025-03-30,Carlos,South,Electronics,Monitor,6,300,1800
+2025-08-05,Carlos,North,Furniture,Office Chair,5,220,1100
+2025-05-04,Alice,South,Furniture,Desk,4,450,1800
+2025-01-17,Emily,North,Electronics,Printer,9,250,2250
+2025-07-24,Frank,North,Office Supplies,Paper,6,15,90
+2025-07-07,Brian,West,Furniture,Office Chair,1,220,220
+2025-03-29,Frank,South,Electronics,Monitor,7,300,2100
+2025-05-01,Alice,East,Electronics,Printer,1,250,250
+2025-03-30,Carlos,South,Electronics,Keyboard,5,50,250
+2025-11-06,Grace,East,Electronics,Mouse,10,35,350
+2025-03-17,Grace,West,Office Supplies,Notebook,1,8,8
+2025-12-03,Emily,West,Office Supplies,Paper,10,15,150
+2025-07-17,Carlos,East,Electronics,Printer,2,250,500
+2025-10-05,Brian,South,Office Supplies,Paper,10,15,150
+2025-02-15,Henry,South,Electronics,Laptop,10,1200,12000
+2025-06-22,Emily,East,Electronics,Mouse,10,35,350
+2025-01-15,Alice,North,Electronics,Laptop,7,1200,8400
+2025-11-01,Brian,North,Electronics,Keyboard,10,50,500
+2025-03-02,Grace,South,Electronics,Laptop,9,1200,10800
+2025-06-26,Frank,West,Furniture,Bookshelf,6,180,1080
+2025-10-15,Brian,South,Electronics,Mouse,5,35,175
+2025-08-14,Alice,East,Office Supplies,Pen Pack,2,12,24
+2025-04-06,Frank,North,Furniture,Office Chair,3,220,660
+2025-05-11,Emily,South,Furniture,Desk,10,450,4500
+2025-12-01,Alice,West,Electronics,Printer,4,250,1000
+2025-08-02,Henry,East,Furniture,Desk,2,450,900
+2025-10-23,Brian,West,Electronics,Laptop,2,1200,2400
+2025-12-17,Emily,North,Electronics,Keyboard,4,50,200
+2025-11-10,Diana,North,Electronics,Printer,5,250,1250
+2025-09-19,Diana,West,Furniture,Bookshelf,6,180,1080
+2025-05-12,Henry,West,Electronics,Laptop,6,1200,7200
+2025-12-16,Henry,West,Furniture,Bookshelf,7,180,1260
+2025-06-23,Alice,West,Office Supplies,Calculator,9,40,360
+2025-07-05,Henry,South,Furniture,Desk,1,450,450
+2025-09-01,Brian,North,Office Supplies,Pen Pack,1,12,12
+2025-05-30,Grace,South,Electronics,Mouse,9,35,315
+2025-02-10,Henry,North,Electronics,Printer,4,250,1000
+2025-02-07,Brian,West,Electronics,Monitor,3,300,900
+2025-09-03,Henry,South,Electronics,Mouse,9,35,315
+2025-01-05,Brian,North,Electronics,Keyboard,9,50,450
+2025-07-08,Carlos,South,Electronics,Mouse,3,35,105
+2025-12-31,Emily,East,Furniture,Office Chair,6,220,1320
+2025-10-26,Henry,South,Electronics,Mouse,8,35,280
+2025-01-28,Carlos,West,Office Supplies,Notebook,7,8,56
+2025-10-02,Diana,East,Electronics,Mouse,3,35,105
+2025-05-28,Emily,North,Furniture,Office Chair,8,220,1760
+2025-12-01,Emily,South,Office Supplies,Paper,7,15,105
+2025-09-07,Carlos,North,Office Supplies,Pen Pack,6,12,72
+2025-07-05,Diana,South,Office Supplies,Calculator,2,40,80
+2025-10-31,Alice,North,Office Supplies,Notebook,4,8,32
+2025-05-24,Diana,West,Electronics,Mouse,5,35,175
+2025-02-22,Grace,East,Office Supplies,Pen Pack,8,12,96
+2025-03-19,Brian,East,Electronics,Printer,9,250,2250
+2025-12-19,Grace,East,Electronics,Mouse,7,35,245
+2025-05-18,Grace,North,Electronics,Printer,2,250,500
+2025-02-02,Brian,North,Electronics,Laptop,5,1200,6000
+2025-02-11,Emily,North,Electronics,Keyboard,7,50,350
+2025-11-08,Carlos,East,Office Supplies,Notebook,9,8,72
+2025-08-07,Alice,East,Furniture,Office Chair,1,220,220
+2025-02-08,Grace,South,Office Supplies,Pen Pack,6,12,72
+2025-04-15,Grace,South,Electronics,Mouse,4,35,140
+2025-03-10,Brian,West,Electronics,Printer,8,250,2000
+2025-12-04,Diana,South,Electronics,Laptop,8,1200,9600
+2025-10-14,Alice,South,Electronics,Laptop,10,1200,12000
+2025-06-04,Brian,South,Office Supplies,Paper,10,15,150
+2025-04-26,Henry,East,Electronics,Keyboard,6,50,300
+2025-10-12,Emily,West,Furniture,Office Chair,7,220,1540
+2025-09-24,Brian,North,Furniture,Desk,3,450,1350
+2025-03-05,Brian,North,Electronics,Laptop,1,1200,1200
+2025-12-24,Henry,North,Office Supplies,Calculator,9,40,360
+2025-12-26,Diana,West,Office Supplies,Notebook,8,8,64
+2025-06-26,Emily,West,Electronics,Printer,1,250,250
+2025-03-03,Brian,West,Electronics,Printer,4,250,1000
+2025-08-02,Grace,South,Office Supplies,Calculator,4,40,160
+2025-09-03,Grace,East,Electronics,Keyboard,7,50,350
+2025-11-12,Henry,East,Office Supplies,Calculator,6,40,240
+2025-09-11,Carlos,West,Electronics,Printer,2,250,500
+2025-10-09,Brian,North,Electronics,Keyboard,2,50,100
+2025-01-17,Brian,South,Electronics,Keyboard,1,50,50
+2025-01-20,Brian,South,Electronics,Laptop,2,1200,2400
+2025-07-17,Henry,North,Furniture,Office Chair,1,220,220
+2025-01-18,Henry,East,Electronics,Laptop,3,1200,3600
+2025-04-08,Frank,North,Furniture,Office Chair,6,220,1320
+2025-02-17,Brian,West,Electronics,Laptop,3,1200,3600
+2025-04-06,Grace,West,Electronics,Keyboard,9,50,450
+2025-10-18,Frank,North,Electronics,Mouse,10,35,350
+2025-06-13,Henry,West,Office Supplies,Paper,2,15,30
+2025-09-06,Diana,East,Office Supplies,Notebook,2,8,16
+2025-10-27,Henry,West,Electronics,Mouse,9,35,315
+2025-05-05,Diana,South,Furniture,Bookshelf,8,180,1440
+2025-05-05,Henry,North,Office Supplies,Notebook,6,8,48
+2025-02-25,Grace,South,Electronics,Mouse,7,35,245
+2025-08-27,Frank,North,Office Supplies,Calculator,1,40,40
+2025-09-23,Emily,West,Furniture,Desk,3,450,1350
+2025-03-14,Brian,North,Furniture,Desk,3,450,1350
+2025-06-19,Alice,North,Electronics,Printer,7,250,1750
+2025-01-15,Frank,South,Electronics,Mouse,3,35,105
+2025-08-05,Henry,West,Office Supplies,Pen Pack,3,12,36
+2025-03-21,Alice,South,Electronics,Mouse,8,35,280
+2025-08-15,Emily,West,Furniture,Bookshelf,5,180,900
+2025-04-05,Emily,East,Electronics,Mouse,2,35,70
+2025-11-05,Frank,East,Furniture,Desk,1,450,450
+2025-04-19,Grace,South,Electronics,Mouse,9,35,315
+2025-01-31,Carlos,West,Furniture,Office Chair,3,220,660
+2025-08-11,Grace,East,Office Supplies,Paper,5,15,75
+2025-11-06,Emily,South,Office Supplies,Pen Pack,7,12,84
+2025-08-03,Diana,North,Office Supplies,Pen Pack,7,12,84
+2025-06-27,Carlos,West,Office Supplies,Pen Pack,4,12,48
+2025-01-20,Diana,East,Furniture,Bookshelf,2,180,360
+2025-07-27,Brian,North,Furniture,Bookshelf,6,180,1080
+2025-05-12,Frank,West,Office Supplies,Pen Pack,4,12,48
+2025-06-02,Grace,West,Office Supplies,Notebook,6,8,48
+2025-02-17,Alice,South,Office Supplies,Calculator,1,40,40
+2025-01-09,Brian,South,Electronics,Printer,10,250,2500
+2025-07-17,Henry,West,Furniture,Desk,2,450,900
+2025-04-14,Alice,North,Electronics,Monitor,2,300,600
+2025-04-24,Carlos,South,Furniture,Bookshelf,9,180,1620
+2025-08-31,Alice,West,Electronics,Printer,1,250,250
+2025-04-16,Brian,East,Office Supplies,Notebook,4,8,32
+2025-10-31,Frank,West,Office Supplies,Pen Pack,4,12,48
+2025-01-06,Diana,South,Office Supplies,Calculator,5,40,200
+2025-01-04,Grace,South,Office Supplies,Paper,9,15,135
+2025-02-16,Grace,West,Electronics,Laptop,4,1200,4800
+2025-12-06,Frank,North,Electronics,Laptop,5,1200,6000
+2025-11-27,Alice,South,Office Supplies,Calculator,9,40,360
+2025-09-28,Emily,West,Office Supplies,Calculator,10,40,400
+2025-12-30,Henry,North,Furniture,Desk,1,450,450
+2025-06-29,Frank,North,Office Supplies,Calculator,10,40,400
+2025-01-07,Frank,West,Electronics,Keyboard,5,50,250
+2025-11-28,Grace,North,Electronics,Laptop,8,1200,9600
+2025-09-10,Emily,West,Electronics,Keyboard,6,50,300
+2025-10-21,Brian,South,Office Supplies,Notebook,6,8,48
+2025-10-24,Diana,South,Furniture,Bookshelf,7,180,1260
+2025-01-08,Brian,North,Office Supplies,Pen Pack,8,12,96
+2025-04-20,Diana,North,Furniture,Desk,10,450,4500
+2025-05-08,Diana,North,Office Supplies,Pen Pack,10,12,120
+2025-10-04,Emily,North,Electronics,Laptop,6,1200,7200
+2025-02-22,Diana,East,Electronics,Keyboard,9,50,450
+2025-04-11,Brian,West,Office Supplies,Paper,8,15,120
