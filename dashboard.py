@@ -55,6 +55,25 @@ def sales_by_category(df):
 
     print(category_sales)
 
+def sales_by_month(df):
+    """
+    Display total sales by month.
+    """
+
+    print("\n===== SALES BY MONTH =====")
+
+    df["Date"] = pd.to_datetime(df["Date"])
+
+    df["Month"] = df["Date"].dt.month_name()
+
+    monthly_sales = (
+        df.groupby("Month")["Sales"]
+        .sum()
+        .sort_values(ascending=False)
+    )
+
+    print(monthly_sales)
+
 def main():
     """
     Main function of the program.
@@ -66,6 +85,7 @@ def main():
     data = load_data("data/sales_data.csv")
     display_dataset_info(data)
     sales_by_category(data)
+    sales_by_month(data)
 
 
 if __name__ == "__main__":
