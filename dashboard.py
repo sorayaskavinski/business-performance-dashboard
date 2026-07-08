@@ -40,6 +40,20 @@ def display_dataset_info(df):
     print("\n===== SUMMARY STATISTICS =====")
     print(df.describe())
 
+def sales_by_category(df):
+    """
+    Display total sales by product category.
+    """
+
+    print("\n===== SALES BY CATEGORY =====")
+
+    category_sales = (
+        df.groupby("Category")["Sales"]
+        .sum()
+        .sort_values(ascending=False)
+    )
+
+    print(category_sales)
 
 def main():
     """
@@ -51,6 +65,7 @@ def main():
 
     data = load_data("data/sales_data.csv")
     display_dataset_info(data)
+    sales_by_category(data)
 
 
 if __name__ == "__main__":
