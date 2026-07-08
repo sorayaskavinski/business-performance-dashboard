@@ -1,28 +1,84 @@
 # Business Performance Dashboard
 
-{This project is a Python data analysis application that analyzes business sales data from a CSV file. It uses Pandas for data manipulation and Matplotlib for visualization.}
+This project is a Python data analysis application that analyzes business sales data from a CSV file. It uses Pandas for data manipulation and Matplotlib for visualization.
 
-{Features:
+### Features:
 * Import sales data
 * Clean dataset
 * Calculate business statistics
 * Analyze sales trends
-* Generate charts}
-
-{Describe your purpose for creating this software.}
-
-{Provide a link to your YouTube demonstration.  It should be a one minute demo of the software running and a walkthrough of the code.}
+* Generate charts
 
 [Software Demo Video](http://youtube.link.goes.here)
 
-# Development Environment
 
-{Describe the tools that you used to develop the software}
+# Technologies:
 
-{Describe the programming language that you used}
+* Python
+* Pandas
+* Matplotlib
+
+
+# How to Run:
+
+* pip install -r requirements.txt
+
+* python dashboard.py
 
 # Useful Websites
 
-{Make a list of websites that you found helpful in this project}
-* [Web Site Name](http://url.link.goes.here)
-* [Web Site Name](http://url.link.goes.here)
+The following resources can help beginners learn the technologies used in this project:
+
+### Python
+
+Python is the programming language used to develop this application.
+
+* [Python Official Documentation](https://docs.python.org/3/)
+* [Python Beginner Tutorial](https://docs.python.org/3/tutorial/)
+### Pandas
+
+Pandas is the Python library used for importing, cleaning, manipulating, and analyzing data.
+
+* [Pandas Official Documentation](https://pandas.pydata.org/docs/)
+
+* [Pandas Getting Started Guide](https://pandas.pydata.org/docs/getting_started/index.html)
+
+---
+
+### Matplotlib
+
+Matplotlib is the visualization library used to create charts and graphs.
+
+* [Matplotlib Official Documentation](https://matplotlib.org/stable/)
+
+* [Matplotlib Tutorials](https://matplotlib.org/stable/tutorials/index.html)
+
+---
+
+### Data Analysis
+
+These resources provide an introduction to data analysis concepts:
+
+* [Kaggle Learn - Pandas](https://www.kaggle.com/learn/pandas)
+
+* [Kaggle Learn - Data Visualization](https://www.kaggle.com/learn/data-visualization)
+
+---
+
+### Visual Studio Code
+
+Visual Studio Code was used as the development environment.
+
+* [Visual Studio Code Official Website](https://code.visualstudio.com/)
+
+* [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python)
+
+---
+
+### Git and GitHub
+
+GitHub is used to store and share the source code.
+
+* [GitHub Documentation](https://docs.github.com/)
+
+* [Git Beginner Guide](https://docs.github.com/en/get-started/getting-started-with-git)
