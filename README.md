@@ -9,7 +9,7 @@ This project is a Python data analysis application that analyzes business sales 
 * Analyze sales trends
 * Generate charts
 
---
+---
 
 [Software Demo Video](http://youtube.link.goes.here)
 
@@ -38,7 +38,7 @@ Python is the programming language used to develop this application.
 * [Python Official Documentation](https://docs.python.org/3/)
 * [Python Beginner Tutorial](https://docs.python.org/3/tutorial/)
 
---
+---
 
 ### Pandas
 
@@ -48,7 +48,7 @@ Pandas is the Python library used for importing, cleaning, manipulating, and ana
 
 * [Pandas Getting Started Guide](https://pandas.pydata.org/docs/getting_started/index.html)
 
---
+---
 
 ### Matplotlib
 
@@ -58,7 +58,7 @@ Matplotlib is the visualization library used to create charts and graphs.
 
 * [Matplotlib Tutorials](https://matplotlib.org/stable/tutorials/index.html)
 
---
+---
 
 ### Data Analysis
 
@@ -68,7 +68,7 @@ These resources provide an introduction to data analysis concepts:
 
 * [Kaggle Learn - Data Visualization](https://www.kaggle.com/learn/data-visualization)
 
---
+---
 
 ### Visual Studio Code
 
@@ -78,7 +78,7 @@ Visual Studio Code was used as the development environment.
 
 * [Python in Visual Studio Code](https://code.visualstudio.com/docs/languages/python)
 
---
+---
 
 ### Git and GitHub
 
