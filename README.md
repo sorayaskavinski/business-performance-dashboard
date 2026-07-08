@@ -11,8 +11,11 @@ This project is a Python data analysis application that analyzes business sales 
 
 ---
 
-[Software Demo Video](http://youtube.link.goes.here)
 
+[Software Demo Video](https://youtu.be/_Nsrw7pDq4c)
+
+
+---
 
 # Technologies:
 

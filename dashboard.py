@@ -4,8 +4,7 @@ Module 1 - Data Analysis
 
 Author: Soraya Skavinski
 
-This program loads a sales dataset from a CSV file
-and displays basic information about the data.
+This program loads a sales dataset from a CSV file and displays basic information about the data.
 """
 
 import pandas as pd
