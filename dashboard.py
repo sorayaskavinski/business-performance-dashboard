@@ -9,22 +9,23 @@ This program loads a sales dataset from a CSV file and displays basic informatio
 
 import pandas as pd
 import matplotlib.pyplot as plt
+from database import sales_collection
 
 # Terminal formatting
 BOLD = "\033[1m"
 RESET = "\033[0m"
 
-def load_data(file_path):
+def load_data_from_mongodb():
     """
-    Load the CSV file into a Pandas DataFrame.
-
-    Args:
-        file_path (str): Path to the CSV file.
-
-    Returns:
-        DataFrame: The loaded dataset.
+    Load sales data from MongoDB Atlas into a Pandas DataFrame.
     """
-    return pd.read_csv(file_path)
+
+    records = list(sales_collection.find())
+
+    for record in records:
+        record.pop("_id", None)
+
+    return pd.DataFrame(records)
 
 def clean_data(df):
     """
@@ -192,7 +193,7 @@ def main():
     print("      BUSINESS PERFORMANCE DASHBOARD")
     print("=" * 50)
 
-    sales_df = load_data("data/sales_data.csv")
+    sales_df = load_data_from_mongodb()
 
     sales_df = clean_data(sales_df)
 

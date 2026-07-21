@@ -13,3 +13,6 @@ charts/*.png
 
 # macOS files
 .DS_Store
+
+#.env file
+.env
