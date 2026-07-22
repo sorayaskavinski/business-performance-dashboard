@@ -1,15 +1,16 @@
 """
-Business Performance Dashboard
-Module 1 - Data Analysis
+Business Performance Dashboard 
+
+Module: 2 - Cloud Database Integration
 
 Author: Soraya Skavinski
 
-This program loads a sales dataset from a CSV file and displays basic information about the data.
+This program loads a sales dataset from a MongoDB database and displays basic information about the data.
 """
 
 import pandas as pd
 import matplotlib.pyplot as plt
-from database import sales_collection
+from database import get_sales 
 
 # Terminal formatting
 BOLD = "\033[1m"
@@ -17,13 +18,10 @@ RESET = "\033[0m"
 
 def load_data_from_mongodb():
     """
-    Load sales data from MongoDB Atlas into a Pandas DataFrame.
+    Load sales data from MongoDB into a Pandas DataFrame.
     """
 
-    records = list(sales_collection.find())
-
-    for record in records:
-        record.pop("_id", None)
+    records = get_sales()
 
     return pd.DataFrame(records)
 
@@ -182,34 +180,3 @@ def create_monthly_chart(df):
     plt.close()
 
     print("Monthly chart saved to charts/monthly_sales.png")
-
-
-
-def main():
-    """
-    Main function of the program.
-    """
-    print("=" * 50)
-    print("      BUSINESS PERFORMANCE DASHBOARD")
-    print("=" * 50)
-
-    sales_df = load_data_from_mongodb()
-
-    sales_df = clean_data(sales_df)
-
-    display_dataset_info(sales_df)
-    
-    display_summary(sales_df)
-
-    sales_by_category(sales_df)
-
-    sales_by_month(sales_df)
-
-    create_category_chart(sales_df)
-
-    create_monthly_chart(sales_df)
-
-    print("\nAnalysis completed Successfully. Charts saved to the 'charts' folder.")
-
-if __name__ == "__main__":
-    main()
