@@ -1,3 +1,4 @@
+from bson import ObjectId
 from database import sales_collection
 
 def add_sale(date, salesperson, region, category, product, quantity, unit_price):
@@ -34,3 +35,37 @@ def add_sale(date, salesperson, region, category, product, quantity, unit_price)
     result = sales_collection.insert_one(sale)
 
     return result.inserted_id
+
+def update_sale(
+    sale_id,
+    new_date,
+    new_salesperson,
+    new_region,
+    new_category,
+    new_product,
+    new_quantity,
+    new_unit_price
+):
+    """
+    Update an existing sales record using its MongoDB document ID.
+    """
+
+    new_sales = new_quantity * new_unit_price
+
+    result = sales_collection.update_one(
+        {"_id": ObjectId(sale_id)},
+        {
+            "$set": {
+                "Date": new_date,
+                "SalesPerson": new_salesperson,
+                "Region": new_region,
+                "Category": new_category,
+                "Product": new_product,
+                "Quantity": new_quantity,
+                "UnitPrice": new_unit_price,
+                "Sales": new_sales
+            }
+        }
+    )
+
+    return result

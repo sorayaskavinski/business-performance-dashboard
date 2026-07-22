@@ -9,8 +9,8 @@ from dashboard import (
     create_monthly_chart,
 )
 
-from crud import add_sale
-
+from crud import (add_sale, update_sale)
+                  
 def run_dashboard():
 
     sales_df = load_data_from_mongodb()
@@ -77,7 +77,36 @@ def menu():
             print(f"Document ID: {sale_id}")
 
         elif choice == "3":
-            print("Update Sale")
+            
+                print("\nUPDATE SALE")
+
+                product = input("Product to update: ")
+
+                print("\nEnter the new information:\n")
+
+                new_date = input("Date (YYYY-MM-DD): ")
+                new_salesperson = input("Sales Person: ")
+                new_region = input("Region: ")
+                new_category = input("Category: ")
+                new_product = input("Product: ")
+                new_quantity = int(input("Quantity: "))
+                new_unit_price = float(input("Unit Price: "))
+
+                result = update_sale(
+                    product,
+                    new_date,
+                    new_salesperson,
+                    new_region,
+                    new_category,
+                    new_product,
+                    new_quantity,
+                    new_unit_price
+                )
+
+                if result.modified_count > 0:
+                    print("\nSale updated successfully!")
+                else:
+                    print("\nNo matching product was found.")
 
         elif choice == "4":
             print("Delete Sale")
