@@ -10,7 +10,7 @@ This program loads a sales dataset from a MongoDB database and displays basic in
 
 import pandas as pd
 import matplotlib.pyplot as plt
-from database import get_sales 
+from database.database import get_sales 
 
 # Terminal formatting
 BOLD = "\033[1m"
@@ -20,10 +20,15 @@ def load_data_from_mongodb():
     """
     Load sales data from MongoDB into a Pandas DataFrame.
     """
-
+   
     records = get_sales()
+   
+    df = pd.DataFrame(records)
+    
+    df["Date"] = pd.to_datetime(df["Date"])
+    
+    return df
 
-    return pd.DataFrame(records)
 
 def clean_data(df):
     """
@@ -110,9 +115,7 @@ def sales_by_month(df):
 
     print("\n" + "=" * 50)
     print("QUESTION 2")
-    print("=" * 50)
-
-    df["Date"] = pd.to_datetime(df["Date"])
+    print("=" * 50)    
 
     monthly_sales = (
         df.groupby(df["Date"].dt.month_name())["Sales"]
@@ -180,3 +183,30 @@ def create_monthly_chart(df):
     plt.close()
 
     print("Monthly chart saved to charts/monthly_sales.png")
+
+def run_dashboard():
+    """
+    Run the Business Performance Dashboard.
+    """
+
+    print("=" * 50)
+    print("      BUSINESS PERFORMANCE DASHBOARD")
+    print("=" * 50)
+
+    sales_df = load_data_from_mongodb()
+
+    sales_df = clean_data(sales_df)
+
+    display_dataset_info(sales_df)
+
+    display_summary(sales_df)
+
+    sales_by_category(sales_df)
+
+    sales_by_month(sales_df)
+
+    create_category_chart(sales_df)
+
+    create_monthly_chart(sales_df)
+
+    print("\nAnalysis completed successfully.")

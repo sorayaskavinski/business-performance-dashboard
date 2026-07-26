@@ -1,5 +1,5 @@
 import pandas as pd
-from database import sales_collection
+from database.database import sales_collection
 
 df = pd.read_csv("data/sales_data.csv")
 

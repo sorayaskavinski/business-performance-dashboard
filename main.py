@@ -1,35 +1,9 @@
-from dashboard import (
-    load_data_from_mongodb,
-    clean_data,
-    display_dataset_info,
-    display_summary,
-    sales_by_category,
-    sales_by_month,
-    create_category_chart,
-    create_monthly_chart,
-)
+from dashboard import run_dashboard
+from features.add_sales import run_add_sale
+from features.update_sales import run_update_sale
+from features.delete_sales import run_delete_sale
+from features.search_sales import search_dashboard
 
-from crud import (add_sale, update_sale)
-                  
-def run_dashboard():
-
-    sales_df = load_data_from_mongodb()
-
-    sales_df = clean_data(sales_df)
-
-    display_dataset_info(sales_df)
-
-    display_summary(sales_df)
-
-    sales_by_category(sales_df)
-
-    sales_by_month(sales_df)
-
-    create_category_chart(sales_df)
-
-    create_monthly_chart(sales_df)
-
-    print("\nAnalysis completed Successfully.")
 
 def menu():
 
@@ -39,85 +13,32 @@ def menu():
         print(" BUSINESS PERFORMANCE DASHBOARD")
         print("=" * 50)
 
-        print("1. View Dashboard")
+        print("1. Dashboard")
         print("2. Add Sale")
-        print("3. Update Sale")
-        print("4. Delete Sale")
-        print("5. Exit")
+        print("3. Search Sales")
+        print("4. Update Sale")
+        print("5. Delete Sale")
+        print("6. Exit")
 
-        choice = input("\nChoose an option: ")
+        option = input("Option: ")
 
-        if choice == "1":
+        if option == "1":
             run_dashboard()
 
-        elif choice == "2":
+        elif option == "2":
+            run_add_sale()
 
-            print("\nEnter the sale information:\n")
+        elif option == "3":
+            search_dashboard()
 
-            date = input("Date (YYYY-MM-DD): ")
-            salesperson = input("Sales Person: ")
-            region = input("Region: ")
-            category = input("Category: ")
-            product = input("Product: ")
+        elif option == "4":
+            run_update_sale()
 
-            quantity = int(input("Quantity: "))
-            unit_price = float(input("Unit Price: "))
+        elif option == "5":
+            run_delete_sale()
 
-            sale_id = add_sale(
-                date,
-                salesperson,
-                region,
-                category,
-                product,
-                quantity,
-                unit_price,
-            )
-
-            print("\nSale added successfully!")
-            print(f"Document ID: {sale_id}")
-
-        elif choice == "3":
-            
-                print("\nUPDATE SALE")
-
-                product = input("Product to update: ")
-
-                print("\nEnter the new information:\n")
-
-                new_date = input("Date (YYYY-MM-DD): ")
-                new_salesperson = input("Sales Person: ")
-                new_region = input("Region: ")
-                new_category = input("Category: ")
-                new_product = input("Product: ")
-                new_quantity = int(input("Quantity: "))
-                new_unit_price = float(input("Unit Price: "))
-
-                result = update_sale(
-                    product,
-                    new_date,
-                    new_salesperson,
-                    new_region,
-                    new_category,
-                    new_product,
-                    new_quantity,
-                    new_unit_price
-                )
-
-                if result.modified_count > 0:
-                    print("\nSale updated successfully!")
-                else:
-                    print("\nNo matching product was found.")
-
-        elif choice == "4":
-            print("Delete Sale")
-
-        elif choice == "5":
-            print("Goodbye!")
+        elif option == "6":
             break
-
-        else:
-            print("Invalid option.")
-
 
 if __name__ == "__main__":
     menu()
