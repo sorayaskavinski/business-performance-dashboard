@@ -1,13 +1,27 @@
-# Business Performance Dashboard
+# Business Performance Dashboard (Cloud Database Edition)
 
-This project is a Python data analysis application that analyzes business sales data from a CSV file. It uses Pandas for data manipulation and Matplotlib for visualization.
+### Overview 
+
+This is an expanded Python data analysis dashboard integrated with a cloud-hosted MongoDB Atlas database. Upgraded from a static CSV-based workflow, the application directly interacts with a cloud database to store, retrieve, update, and analyze live business sales data.
+
+It leverages pymongo for database operations, pandas for data cleaning and aggregation, and matplotlib for key visual insights.
 
 ### Features:
-* Import sales data
-* Clean dataset
-* Calculate business statistics
-* Analyze sales trends
-* Generate charts
+* Cloud Database Integration: Connects securely to a remote MongoDB Atlas cluster.
+
+* Full CRUD Functionality:
+
+* Create: Insert new sales records and transactions into the cloud database.
+
+* Read: Retrieve stored business records for real-time analysis.
+
+* Update: Modify existing sales entries or status fields directly in the cloud.
+
+* Delete: Remove outdated or duplicate records safely.
+
+* Data Cleaning & Aggregation: Uses Pandas to handle missing data, parse date formats, and group revenue statistics.
+
+* Data Visualization: Generates interactive Matplotlib charts displaying sales trends, category performance, and top revenue drivers.
 
 ---
 
@@ -17,22 +31,49 @@ This project is a Python data analysis application that analyzes business sales 
 
 ---
 
-# Technologies:
+### Cloud Database Structure
 
-* Python
-* Pandas
-* Matplotlib
+The application connects to a MongoDB database named business_dashboard using a sales_records collection.
+---
+
+
+# Technologies & Libraries:
+
+* Language: Python 3
+
+* Cloud Database: MongoDB Atlas
+
+* Database Driver: PyMongo (pymongo) / dnspython
+
+* Data Processing: Pandas
+
+* Visualization: Matplotlib / Seaborn
+
+* Environment Management: Python dotenv (for safe URI credential handling)
 
 
 # How to Run:
 
 * pip install -r requirements.txt
 
-* python dashboard.py
+* python main.py
+
+---
+
 
 # Useful Websites
 
 The following resources can help beginners learn the technologies used in this project:
+
+### MongoDB & Cloud Databases
+
+* [MongoDB Atlas Documentation](https://www.mongodb.com/pt-br/docs/atlas/)
+
+* [PyMongo Official Driver Tutorial](https://www.mongodb.com/pt-br/docs/languages/python/pymongo-driver/current/get-started/)
+
+* [MongoDB Python Crash Course (Real Python)](https://realpython.com/)
+
+---
 
 ### Python
 
