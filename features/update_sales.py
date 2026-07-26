@@ -7,7 +7,7 @@ def run_update_sale():
     print("\nEnter the sale information to update:\n")
 
     from features.search_sales import select_sale
-
+    
     sale_id = select_sale()
 
     if sale_id is None:

@@ -128,3 +128,18 @@ def delete_sale(sale_id):
     result = sales_collection.delete_one({"_id": object_id})
 
     return result.deleted_count
+
+def get_products():
+    return sorted(sales_collection.distinct("Product"))
+
+
+def get_categories():
+    return sorted(sales_collection.distinct("Category"))
+
+
+def get_regions():
+    return sorted(sales_collection.distinct("Region"))
+
+
+def get_salespeople():
+    return sorted(sales_collection.distinct("SalesPerson"))
