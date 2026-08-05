@@ -3,6 +3,8 @@ from django.contrib import messages
 from database.crud import (get_all_sales, search_sales as search_sales_db, delete_sale as delete_sale_db,
     update_sale as update_sale_db,sales_collection, add_sale as add_sale_db)
 from bson import ObjectId
+import pandas as pd
+
 
 def home(request):
     """
@@ -139,3 +141,66 @@ def add_sale_view(request):
         return redirect("search_sales")
 
     return render(request, "add_sale.html")
+
+def dashboard_view(request):
+    """
+    Gets data from MongoDB, processes it with Pandas, and renders the Dashboard page.
+    """
+    records = get_all_sales()
+    
+    if not records:
+        context = {"empty_data": True}
+        return render(request, "dashboard.html", context)
+
+    # Convert the list of records to a Pandas DataFrame
+    df = pd.DataFrame(records)
+    
+    # Data cleaning and preparation
+    df = df.drop_duplicates()
+    df["Date"] = pd.to_datetime(df["Date"])    
+    
+    if "Sales" not in df.columns:
+        df["Sales"] = df["Quantity"] * df["UnitPrice"]
+
+    # --- Summary Metrics ---
+    total_sales = float(df["Sales"].sum())
+    average_sale = float(df["Sales"].mean())
+    highest_sale = float(df["Sales"].max())
+    lowest_sale = float(df["Sales"].min())
+    total_transactions = len(df)
+
+    # --- Category Analysis ---
+    category_sales = df.groupby("Category")["Sales"].sum().sort_values(ascending=False)
+    top_category = category_sales.index[0] if not category_sales.empty else "N/A"
+    
+    categories_labels = category_sales.index.tolist()
+    categories_values = category_sales.values.tolist()
+
+    # --- Monthly Analysis ---
+    df["Month_Name"] = df["Date"].dt.month_name()
+    df["Month_Num"] = df["Date"].dt.month
+    
+    # Organizes monthly sales by month number to ensure correct order in the chart
+    monthly_sales = df.groupby(["Month_Num", "Month_Name"])["Sales"].sum().reset_index().sort_values("Month_Num")
+    
+    top_month_row = monthly_sales.loc[monthly_sales["Sales"].idxmax()] if not monthly_sales.empty else None
+    top_month = top_month_row["Month_Name"] if top_month_row is not None else "N/A"
+
+    months_labels = monthly_sales["Month_Name"].tolist()
+    months_values = monthly_sales["Sales"].tolist()
+
+    context = {
+        "total_sales": total_sales,
+        "average_sale": average_sale,
+        "highest_sale": highest_sale,
+        "lowest_sale": lowest_sale,
+        "total_transactions": total_transactions,
+        "top_category": top_category,
+        "top_month": top_month,       
+        "cat_labels": categories_labels,
+        "cat_data": categories_values,
+        "month_labels": months_labels,
+        "month_data": months_values,
+    }
+
+    return render(request, "dashboard.html", context)

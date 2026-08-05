@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-md-12 d-flex justify-content-between align-items-center">
+        <h2>📊 Business Performance Dashboard</h2>
+        <a href="{% url 'home' %}" class="btn btn-outline-secondary btn-sm">← Back to Home</a>
+    </div>
+</div>
+
+{% if empty_data %}
+<div class="alert alert-warning">No sales records found in MongoDB to generate the dashboard.</div>
+{% else %}
+
+<!-- Summary Cards -->
+<div class="row g-3 mb-4">
+    <div class="col-md-3">
+        <div class="card shadow-sm text-center border-primary">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Total Sales</h6>
+                <h3 class="card-title text-primary">${{ total_sales|floatformat:2 }}</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card shadow-sm text-center border-success">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Average Sale</h6>
+                <h3 class="card-title text-success">${{ average_sale|floatformat:2 }}</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card shadow-sm text-center border-info">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Highest Sale</h6>
+                <h3 class="card-title text-info">${{ highest_sale|floatformat:2 }}</h3>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card shadow-sm text-center border-secondary">
+            <div class="card-body">
+                <h6 class="card-subtitle mb-2 text-muted">Transactions</h6>
+                <h3 class="card-title text-secondary">{{ total_transactions }}</h3>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Top Performers -->
+<div class="row mb-4">
+    <div class="col-md-6">
+        <div class="card shadow-sm bg-light">
+            <div class="card-body">
+                <h6 class="text-muted">🏆 Top Product Category</h6>
+                <h4>{{ top_category }}</h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6">
+        <div class="card shadow-sm bg-light">
+            <div class="card-body">
+                <h6 class="text-muted">📅 Top Sales Month</h6>
+                <h4>{{ top_month }}</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Graphic Area -->
+<div class="row g-4">
+    <!-- Graphic 1: Sales by Category (Bars) -->
+    <div class="col-md-6">
+        <div class="card shadow">
+            <div class="card-header text-white" style="background-color: #01305f;">
+                <h5 class="card-title mb-0">Sales by Category</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="categoryChart"></canvas>
+            </div>
+        </div>
+    </div>
+
+    <!-- Graphic 2: Monthly Sales (Line) -->
+    <div class="col-md-6">
+        <div class="card shadow">
+            <div class="card-header text-white" style="background-color: #01305f;">
+                <h5 class="card-title mb-0">Monthly Sales</h5>
+            </div>
+            <div class="card-body">
+                <canvas id="monthlyChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+<!-- Pass Django variables safely to JSON scripts -->
+{{ cat_labels|json_script:"cat-labels-data" }}
+{{ cat_data|json_script:"cat-values-data" }}
+{{ month_labels|json_script:"month-labels-data" }}
+{{ month_data|json_script:"month-values-data" }}
+
+<script>
+    // Parse the JSON script contents into JavaScript variables
+    const catLabels = JSON.parse(document.getElementById('cat-labels-data').textContent);
+    const catData = JSON.parse(document.getElementById('cat-values-data').textContent);
+    const monthLabels = JSON.parse(document.getElementById('month-labels-data').textContent);
+    const monthData = JSON.parse(document.getElementById('month-values-data').textContent);
+
+    // Category Sales Chart
+    const canvasCat = document.getElementById('categoryChart');
+    if (canvasCat) {
+        new Chart(canvasCat.getContext('2d'), {
+            type: 'bar',
+            data: {
+                labels: catLabels,
+                datasets: [{
+                    label: 'Total Sales ($)',
+                    data: catData,
+                    backgroundColor: 'rgba(1, 48, 95, 0.7)',
+                    borderColor: '#01305f',
+                    borderWidth: 1
+                }]
+            },
+            options: { responsive: true, scales: { y: { beginAtZero: true } } }
+        });
+    }
+
+    // Monthly Sales Chart
+    const canvasMonth = document.getElementById('monthlyChart');
+    if (canvasMonth) {
+        new Chart(canvasMonth.getContext('2d'), {
+            type: 'line',
+            data: {
+                labels: monthLabels,
+                datasets: [{
+                    label: 'Total Sales ($)',
+                    data: monthData,
+                    fill: false,
+                    borderColor: '#ffc107',
+                    tension: 0.1,
+                    pointBackgroundColor: '#01305f'
+                }]
+            },
+            options: { responsive: true, scales: { y: { beginAtZero: true } } }
+        });
+    }
+</script>
+{% endif %}
+{% endblock %}
