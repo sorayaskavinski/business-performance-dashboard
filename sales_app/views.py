@@ -1,7 +1,7 @@
 from django.shortcuts import render, redirect
 from django.contrib import messages
 from database.crud import (get_all_sales, search_sales as search_sales_db, delete_sale as delete_sale_db,
-    update_sale as update_sale_db,sales_collection)
+    update_sale as update_sale_db,sales_collection, add_sale as add_sale_db)
 from bson import ObjectId
 
 def home(request):
@@ -110,3 +110,32 @@ def update_sale_view(request, sale_id):
     sale["id"] = str(sale["_id"])
 
     return render(request, "update_sale.html", {"sale": sale})
+
+def add_sale_view(request):
+    """
+    Renders form on GET and creates a new sale record in MongoDB on POST.
+    """
+    if request.method == "POST":
+        date = request.POST.get("date")
+        salesperson = request.POST.get("salesperson")
+        region = request.POST.get("region")
+        category = request.POST.get("category")
+        product = request.POST.get("product")
+        quantity = int(request.POST.get("quantity", 1))
+        unit_price = float(request.POST.get("unit_price", 0.0))
+
+        # Chama a função add_sale original do seu crud.py
+        add_sale_db(
+            date=date,
+            salesperson=salesperson,
+            region=region,
+            category=category,
+            product=product,
+            quantity=quantity,
+            unit_price=unit_price
+        )
+
+        messages.success(request, "New sale record added successfully!")
+        return redirect("search_sales")
+
+    return render(request, "add_sale.html")
