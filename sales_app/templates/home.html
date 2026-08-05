@@ -1,91 +1,132 @@
-<!DOCTYPE html>
-<html lang="en">
+{% extends "base.html" %}
 
-<head>
+{% block content %}
 
-    <meta charset="UTF-8">
+<div class="text-center">
 
-    <title>Turbo Performance Dashboard</title>
+    <h1 class="display-4">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+        Turbo Performance
 
-</head>
+    </h1>
 
-<body class="bg-light">
+    <p class="lead">
 
-<div class="container mt-5">
+        Business Performance Dashboard
 
-    <div class="text-center">
+    </p>
 
-        <h1 class="display-4">
-            Turbo Performance
-        </h1>
+</div>
 
-        <p class="lead">
-            Business Performance Dashboard
+<div class="card shadow mt-4">
+
+    <div class="card-body">
+
+        <h3>Welcome!</h3>
+
+        <p>
+
+            This application helps businesses analyze sales,
+            manage records,
+            and make data-driven decisions.
+
         </p>
 
     </div>
 
-    <hr>
+</div>
 
-    <div class="card shadow mt-4">
+<div class="row mt-4">
 
-        <div class="card-body">
+    <div class="col-md-4">
 
-            <h3>Welcome!</h3>
+        <a href="#" class="btn btn-primary w-100">
 
-            <p>
+            Dashboard
 
-                This dashboard allows you to analyze sales,
-                manage business records,
-                and visualize performance data.
+        </a>
 
-            </p>
+    </div>
+
+    <div class="col-md-4">
+
+        <a href="{% url 'search_sales' %}" class="btn btn-success w-100">
+
+            Search Sales
+
+        </a>
+
+    </div>
+
+    <div class="col-md-4">
+
+        <a href="#" class="btn btn-warning w-100">
+
+            Add Sale
+
+        </a>
+
+    </div>
+
+</div>
+
+<div class="row mt-5">
+
+    <div class="col-md-4">
+
+        <div class="card">
+
+            <div class="card-body">
+
+                <h4>Cloud Database</h4>
+
+                <p>
+
+                    MongoDB Atlas
+
+                </p>
+
+            </div>
 
         </div>
 
     </div>
 
-    <div class="row mt-4">
+    <div class="col-md-4">
 
-        <div class="col-md-3">
+        <div class="card">
 
-            <a href="#" class="btn btn-primary w-100">
+            <div class="card-body">
 
-                Dashboard
+                <h4>Framework</h4>
 
-            </a>
+                <p>
 
-        </div>
+                    Django
 
-        <div class="col-md-3">
+                </p>
 
-            <a href="#" class="btn btn-success w-100">
-
-                Search Sales
-
-            </a>
+            </div>
 
         </div>
 
-        <div class="col-md-3">
+    </div>
 
-            <a href="#" class="btn btn-warning w-100">
+    <div class="col-md-4">
 
-                Add Sale
+        <div class="card">
 
-            </a>
+            <div class="card-body">
 
-        </div>
+                <h4>Data Analysis</h4>
 
-        <div class="col-md-3">
+                <p>
 
-            <a href="#" class="btn btn-danger w-100">
+                    Pandas & Matplotlib
 
-                Reports
+                </p>
 
-            </a>
+            </div>
 
         </div>
 
@@ -93,6 +134,4 @@
 
 </div>
 
-</body>
-
-</html>
+{% endblock %}

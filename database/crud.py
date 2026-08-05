@@ -1,6 +1,11 @@
 from bson import ObjectId
 from database.database import sales_collection
 
+def get_all_sales():
+    """
+    Retrieve all sales records from MongoDB.
+    """
+    return list(sales_collection.find())
 
 def add_sale(
     date,
@@ -31,50 +36,34 @@ def add_sale(
 
     return result.inserted_id
 
-def search_by_product(product):
+def search_sales(product="", category="", salesperson="", region="", date=""):
     """
-    Search sales by product name.
+    Search sales dynamically using multiple optional fields.
+    Ignores empty/blank filters so users can combine any number of criteria.
     """
-    return list(
-        sales_collection.find(
-            {"Product": {"$regex": product, "$options": "i"}}
-        )
-    )
+    query = {}
 
+    # Adiciona à busca apenas os campos que realmente contêm algum texto
+    if product and product.strip():
+        query["Product"] = {"$regex": product.strip(), "$options": "i"}
+        
+    if category and category.strip():
+        query["Category"] = {"$regex": category.strip(), "$options": "i"}
+        
+    if salesperson and salesperson.strip():
+        query["SalesPerson"] = {"$regex": salesperson.strip(), "$options": "i"}
+        
+    if region and region.strip():
+        query["Region"] = {"$regex": region.strip(), "$options": "i"}
+        
+    if date and date.strip():
+        query["Date"] = {"$regex": date.strip(), "$options": "i"}
 
-def search_by_category(category):
-    """
-    Search sales by category.
-    """
-    return list(
-        sales_collection.find(
-            {"Category": {"$regex": category, "$options": "i"}}
-        )
-    )
+    # Se nenhum filtro foi fornecido, retorna todas as vendas
+    if not query:
+        return list(sales_collection.find())
 
-
-def search_by_salesperson(salesperson):
-    """
-    Search sales by salesperson.
-    """
-    return list(
-        sales_collection.find(
-            {"SalesPerson": {"$regex": salesperson, "$options": "i"}}
-        )
-    )
-
-
-def search_by_region(region):
-    """
-    Search sales by region.
-    """
-    return list(
-        sales_collection.find(
-            {"Region": {"$regex": region, "$options": "i"}}
-        )
-    )
-
-
+    return list(sales_collection.find(query))
 
 def update_sale(
     sale_id,
@@ -143,3 +132,4 @@ def get_regions():
 
 def get_salespeople():
     return sorted(sales_collection.distinct("SalesPerson"))
+

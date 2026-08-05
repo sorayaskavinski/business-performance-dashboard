@@ -1,0 +1,107 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-md-12 d-flex justify-content-between align-items-center">
+        <h2>Search Sales</h2>
+        <a href="{% url 'home' %}" class="btn btn-outline-secondary btn-sm">← Back to Home</a>
+    </div>
+</div>
+
+<!-- Filter Options -->
+<div class="card shadow mb-4">
+    <div class="card-header text-white" style="background-color: #01305f;">
+        <h5 class="card-title mb-0">Filter Options</h5>
+    </div>
+    <div class="card-body">
+        <form method="GET" action="{% url 'search_sales' %}">
+            <div class="row g-3">
+                <!-- Product -->
+                <div class="col-md-4">
+                    <label for="product" class="form-label font-weight-bold">Product</label>
+                    <input type="text" class="form-control" id="product" name="product" value="{{ query_params.product|default:'' }}" placeholder="e.g. Laptop">
+                </div>
+
+                <!-- Category -->
+                <div class="col-md-4">
+                    <label for="category" class="form-label">Category</label>
+                    <input type="text" class="form-control" id="category" name="category" value="{{ query_params.category|default:'' }}" placeholder="e.g. Electronics">
+                </div>
+
+                <!-- Salesperson -->
+                <div class="col-md-4">
+                    <label for="salesperson" class="form-label">Salesperson</label>
+                    <input type="text" class="form-control" id="salesperson" name="salesperson" value="{{ query_params.salesperson|default:'' }}" placeholder="e.g. John Doe">
+                </div>
+
+                <!-- Region -->
+                <div class="col-md-4">
+                    <label for="region" class="form-label">Region</label>
+                    <input type="text" class="form-control" id="region" name="region" value="{{ query_params.region|default:'' }}" placeholder="e.g. North America">
+                </div>
+
+                <!-- Date -->
+                <div class="col-md-4">
+                    <label for="date" class="form-label">Date</label>
+                    <input type="date" class="form-control" id="date" name="date" value="{{ query_params.date|default:'' }}">
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="col-md-4 d-flex align-items-end gap-2">
+                    <button type="submit" class="btn btn-primary w-100" style="background-color: #01305f; border-color: #01305f;">
+                        Search
+                    </button>
+                    <a href="{% url 'search_sales' %}" class="btn btn-outline-secondary w-100">
+                        Clear
+                    </a>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Table Results -->
+<div class="card shadow">
+    <div class="card-body p-0">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>Date</th>
+                        <th>Product</th>
+                        <th>Category</th>
+                        <th>Salesperson</th>
+                        <th>Region</th>
+                        <th class="text-end">Amount</th>
+                        <th class="text-center">Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for sale in sales %}
+                        <tr>
+                            <td>{{ sale.Date }}</td>
+                            <td><strong>{{ sale.Product }}</strong></td>
+                            <td><span class="badge bg-secondary">{{ sale.Category }}</span></td>
+                            <td>{{ sale.SalesPerson }}</td>
+                            <td>{{ sale.Region }}</td>
+                            <td class="text-end fw-bold text-success">
+                                ${{ sale.Sales|default:sale.UnitPrice|default:"0.00" }}
+                            </td>
+                            <td class="text-center">
+                                <a href="{% url 'update_sale' sale.id %}" class="btn btn-sm btn-outline-primary me-1">Edit</a>
+                                <a href="{% url 'delete_sale' sale.id %}" class="btn btn-sm btn-outline-danger">Delete</a>
+                            </td>
+                        </tr>
+                    {% empty %}
+                        <tr>
+                            <td colspan="7" class="text-center py-4 text-muted">
+                                No sales found matching your search criteria.
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}
