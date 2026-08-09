@@ -9,18 +9,15 @@ The application connects to a MongoDB Atlas cloud database containing sales reco
 
 To start the application on a local computer, open a terminal in the project directory and activate the virtual environment:
 
-```powershell
-.\.venv\Scripts\Activate.ps1
+    .\.venv\Scripts\Activate.ps1
 
 Then start the Django development server:
 
     python manage.py runserver
 
-
 After the server starts, open the following address in a web browser:
 
     http://127.0.0.1:8000/
-
 
 The purpose of this software is to create a practical business application that demonstrates how a Python web framework can interact with a cloud database and dynamically generate web pages based on data and user input.
 
@@ -31,7 +28,6 @@ The demonstration video shows the application running on the local development s
 
 [Software Demo Video](PASTE-YOUR-YOUTUBE-LINK-HERE)
 
----
 
 # Web Pages
 
@@ -59,15 +55,15 @@ The Django view retrieves sales records from MongoDB and uses Python and Pandas 
 
 The dashboard dynamically calculates and displays:
 
-Total sales
-Average sale
-Highest sale
-Lowest sale
-Number of transactions
-Top product category
-Top sales month
-Sales by category
-Monthly sales
+- Total sales
+- Average sale
+- Highest sale
+- Lowest sale
+- Number of transactions
+- Top product category
+- Top sales month
+- Sales by category
+- Monthly sales
 
 The page also generates interactive charts using Chart.js. The data for the charts is calculated by Python and passed from the Django view to the HTML template.
 
@@ -79,11 +75,11 @@ The Search Sales page allows users to search the sales database using multiple s
 
 Users can search using:
 
-Product
-Category
-Salesperson
-Region
-Date
+- Product
+- Category
+- Salesperson
+- Region
+- Date
 
 The user can combine multiple filters or leave filters empty.
 
@@ -91,28 +87,28 @@ The Django view receives the user's input through the request, sends the search 
 
 The results are displayed in a table containing information such as:
 
-Date
-Product
-Category
-Salesperson
-Region
-Sales amount
+- Date
+- Product
+- Category
+- Salesperson
+- Region
+- Sales amount
 
 Each result also contains buttons that allow the user to edit or delete that specific sales record.
 
-##Add Sale Page
+## Add Sale Page
 
 The Add Sale page allows users to enter information for a new sales transaction.
 
 The user provides information such as:
 
-Date
-Product
-Category
-Salesperson
-Region
-Quantity
-Unit price
+- Date
+- Product
+- Category
+- Salesperson
+- Region
+- Quantity
+- Unit price
 
 The Django view receives the submitted information and sends it to the MongoDB CRUD function.
 
@@ -186,20 +182,20 @@ The project was developed using Visual Studio Code as the primary development en
 
 The following tools and technologies were used:
 
-Visual Studio Code
-Python
-Django
-MongoDB Atlas
-PyMongo
-Pandas
-Matplotlib
-Chart.js
-HTML
-CSS
-Bootstrap
-Git
-GitHub
-PowerShell
+- Visual Studio Code
+- Python
+- Django
+- MongoDB Atlas
+- PyMongo
+- Pandas
+- Matplotlib
+- Chart.js
+- HTML
+- CSS
+- Bootstrap
+- Git
+- GitHub
+- PowerShell
 
 Python was the primary programming language used to develop the application.
 
@@ -223,11 +219,11 @@ The application separates the web interface from the database and CRUD operation
 
 The CRUD functionality includes:
 
-Creating new sales records
-Reading sales records
-Searching sales records
-Updating existing sales records
-Deleting sales records
+- Creating new sales records
+- Reading sales records
+- Searching sales records
+- Updating existing sales records
+- Deleting sales records
 
 
 # Useful Websites
@@ -243,15 +239,15 @@ Deleting sales records
 
 # Future Work
 
-Improve validation for user input when adding and updating sales.
-Improve error handling for invalid or missing MongoDB document IDs.
-Add additional sorting and filtering options to the Search Sales page.
-Add pagination when displaying a large number of sales records.
-Add more business analytics and visualizations to the Dashboard.
-Improve the visual design and responsiveness of the web application.
-Add user authentication and different levels of access.
-Add additional reports to help users analyze business performance.
-Add export functionality for sales reports.
-Improve confirmation and feedback messages after database operations.
-Deploy the application to a production hosting environment.
-Continue improving the application based on user feedback and testing.
+- Improve validation for user input when adding and updating sales.
+- Improve error handling for invalid or missing MongoDB document IDs.
+- Add additional sorting and filtering options to the Search Sales page.
+- Add pagination when displaying a large number of sales records.
+- Add more business analytics and visualizations to the Dashboard.
+- Improve the visual design and responsiveness of the web application.
+- Add user authentication and different levels of access.
+- Add additional reports to help users analyze business performance.
+- Add export functionality for sales reports.
+- Improve confirmation and feedback messages after database operations.
+- Deploy the application to a production hosting environment.
+- Continue improving the application based on user feedback and testing.
