@@ -16,9 +16,11 @@ Then start the Django development server:
 
     python manage.py runserver
 
+
 After the server starts, open the following address in a web browser:
 
     http://127.0.0.1:8000/
+
 
 The purpose of this software is to create a practical business application that demonstrates how a Python web framework can interact with a cloud database and dynamically generate web pages based on data and user input.
 
@@ -26,8 +28,10 @@ This project also helped me develop a better understanding of the separation bet
 
 The demonstration video shows the application running on the local development server, navigation through the web pages, interaction with the sales data, and a walkthrough of the main sections of the code.
 
+
 [Software Demo Video](PASTE-YOUR-YOUTUBE-LINK-HERE)
 
+---
 
 # Web Pages
 
