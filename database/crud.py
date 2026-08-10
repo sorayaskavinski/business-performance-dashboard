@@ -59,7 +59,7 @@ def search_sales(product="", category="", salesperson="", region="", date=""):
     if date and date.strip():
         query["Date"] = {"$regex": date.strip(), "$options": "i"}
 
-    # Se nenhum filtro foi fornecido, retorna todas as vendas
+    # If you dont find any query, return all sales records
     if not query:
         return list(sales_collection.find())
 
